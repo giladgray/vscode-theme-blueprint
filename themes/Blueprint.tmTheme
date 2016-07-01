@@ -3,20 +3,22 @@
 <plist version="1.0">
 <dict>
 	<key>name</key>
-	<string>Flatland - Monokai</string>
+	<string>Blueprint</string>
 	<key>settings</key>
 	<array>
 		<dict>
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#26292C</string>
+				<string>#202b33</string>
 				<key>caret</key>
 				<string>#F8F8F0</string>
 				<key>foreground</key>
-				<string>#F8F8F2</string>
+				<string>#bfccd6</string>
 				<key>invisibles</key>
-				<string>#3B3A32</string>
+				<string>#394b59</string>
+
+				<!-- TODO-->
 				<key>lineHighlight</key>
 				<string>#202325</string>
 				<key>selection</key>
@@ -52,7 +54,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#75715E</string>
+				<string>#5c7080</string>
 			</dict>
 		</dict>
 		<dict>
@@ -63,7 +65,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#E6DB74</string>
+				<string>#b6d94c</string>
 			</dict>
 		</dict>
 		<dict>
@@ -74,7 +76,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#AE81FF</string>
+				<string>#f5498b</string>
 			</dict>
 		</dict>
 
@@ -86,7 +88,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#AE81FF</string>
+				<string>#2ee6d6</string>
 			</dict>
 		</dict>
 		<dict>
@@ -107,8 +109,8 @@
 			<string>variable</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string></string>
+				<key>foreground</key>
+				<string>#00b3a4</string>
 			</dict>
 		</dict>
 		<dict>
