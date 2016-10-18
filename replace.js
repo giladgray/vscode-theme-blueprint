@@ -2,11 +2,9 @@
 
 const fs = require("fs");
 const COLORS = require("./colors");
-// split file into lines
-const lines = fs.readFileSync("./theme.template", "utf-8").split("\r\n")
-    .map((line) => {
-        // replace each color in each line #bruteforce
-        Object.keys(COLORS).forEach((color) => line = line.replace(color, COLORS[color]));
-        return line;
-    });
-fs.writeFileSync("themes/Blueprint.tmTheme", lines.join("\n"));
+
+// replace each variable with corresponding color
+const contents = fs.readFileSync("./theme.template", "utf-8")
+    .replace(/@[\w-]+\d?/g, (match) => COLORS[match]);
+fs.writeFileSync("themes/Blueprint.tmTheme", contents);
+console.log("OK");

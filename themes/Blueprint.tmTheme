@@ -26,7 +26,7 @@
 				<key>findHighlight</key>
 				<string>#FFE792</string>
 				<key>findHighlightForeground</key>
-				<string>#10161a</string>
+				<string>@black</string>
 				<key>selectionBorder</key>
 				<string>#222218</string>
 				<key>activeGuide</key>
@@ -121,7 +121,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>@voilet4</string>
+				<string>#a854a8</string>
 			</dict>
 		</dict>
 		<dict>
