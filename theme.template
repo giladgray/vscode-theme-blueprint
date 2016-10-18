@@ -10,23 +10,23 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#202b33</string>
+				<string>@dark-gray2</string>
 				<key>caret</key>
-				<string>#f5f8fa</string>
+				<string>@light-gray5</string>
 				<key>foreground</key>
-				<string>#bfccd6</string>
+				<string>@gray5</string>
 				<key>invisibles</key>
-				<string>#394b59</string>
+				<string>@dark-gray5</string>
 
 				<!-- TODO-->
 				<key>lineHighlight</key>
-				<string>#293742</string>
+				<string>@dark-gray3</string>
 				<key>selection</key>
-				<string>#106ba3</string>
+				<string>@blue2</string>
 				<key>findHighlight</key>
 				<string>#FFE792</string>
 				<key>findHighlightForeground</key>
-				<string>#10161a</string>
+				<string>@black</string>
 				<key>selectionBorder</key>
 				<string>#222218</string>
 				<key>activeGuide</key>
@@ -54,7 +54,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#5c7080</string>
+				<string>@gray1</string>
 			</dict>
 		</dict>
 		<dict>
@@ -65,7 +65,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#b6d94c</string>
+				<string>@lime4</string>
 			</dict>
 		</dict>
 		<dict>
@@ -76,7 +76,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#f5498b</string>
+				<string>@rose4</string>
 			</dict>
 		</dict>
 
@@ -88,7 +88,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#008075</string>
+				<string>@turquoise1</string>
 			</dict>
 		</dict>
 		<dict>
@@ -99,7 +99,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#2ee6d6</string>
+				<string>@turquoise5</string>
 			</dict>
 		</dict>
 		<dict>
@@ -110,7 +110,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#00b3a4</string>
+				<string>@turquoise3</string>
 			</dict>
 		</dict>
 		<dict>
@@ -121,7 +121,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>@voilet4</string>
+				<string>@violet4</string>
 			</dict>
 		</dict>
 		<dict>
