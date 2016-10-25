@@ -33,12 +33,12 @@
 				<string>#9D550FB0</string>
 
 				<key>bracketsForeground</key>
-				<string>#F8F8F2A5</string>
+				<string>#48aff0</string>
 				<key>bracketsOptions</key>
 				<string>underline</string>
 
 				<key>bracketContentsForeground</key>
-				<string>#F8F8F2A5</string>
+				<string>#48aff0</string>
 				<key>bracketContentsOptions</key>
 				<string>underline</string>
 
@@ -468,14 +468,86 @@
 			</dict>
 		</dict>
 
+		<dict>
+			<key>name</key>
+			<string>Markup: heading</string>
+			<key>scope</key>
+			<string>markup.heading</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#f2b824</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>Markup: bold</string>
+			<key>scope</key>
+			<string>markup.bold</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#a854a8</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Markup: italic</string>
+			<key>scope</key>
+			<string>markup.italic</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#2b95d6</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>Markup: list</string>
+			<key>scope</key>
+			<string>markup.list.beginning</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#f5498b</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>Markup: quote</string>
+			<key>scope</key>
+			<string>markup.punctuation.quote</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#738694</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>Markup: backtick</string>
+			<key>scope</key>
+			<string>markup.raw.inline</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ffffff</string>
+			</dict>
+		</dict>
 
 		<dict>
 			<key>name</key>
 			<string>Resets</string>
 			<key>scope</key>
-			<string>punctuation.separator, tag.assignment</string>
+			<string>punctuation.separator, punctuation.link, tag.assignment, property-list.property-name</string>
 			<key>settings</key>
 			<dict>
+				<key>fontStyle</key>
+				<string>inherit</string>
 				<key>foreground</key>
 				<string>#f5f8fa</string>
 			</dict>
