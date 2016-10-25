@@ -108,5 +108,3 @@ module.exports = {
     "@violet5": "#c274c2",
     "@white": "#ffffff",
 };
-
-
