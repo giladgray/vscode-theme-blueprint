@@ -9,7 +9,8 @@
     "tasks": [
         {
             "taskName": "replace",
-            "args": ["replace.js"]
+            "args": ["replace.js"],
+            "isBuildCommand": true
         }
     ]
 }

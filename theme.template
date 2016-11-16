@@ -106,7 +106,7 @@
 			<key>name</key>
 			<string>Built-in constant (this, false)</string>
 			<key>scope</key>
-			<string>constant.language</string>
+			<string>constant.language, variable.language</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -190,8 +190,6 @@
 			<string>storage.type, storage.modifier</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string>italic</string>
 				<key>foreground</key>
 				<string>@violet4</string>
 			</dict>
@@ -200,7 +198,7 @@
 			<key>name</key>
 			<string>Tag name</string>
 			<key>scope</key>
-			<string>entity.name.tag, punctuation.tag</string>
+			<string>entity.tag, definition.tag, entity.tag.name.function</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -226,11 +224,9 @@
 			<key>name</key>
 			<string>Class name</string>
 			<key>scope</key>
-			<string>entity.name.class</string>
+			<string>entity.name.type</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string>underline</string>
 				<key>foreground</key>
 				<string>@gold4</string>
 			</dict>
@@ -250,22 +246,9 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Library function</string>
-			<key>scope</key>
-			<string>support.function</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string></string>
-				<key>foreground</key>
-				<string>@blue4</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
 			<string>Library constant</string>
 			<key>scope</key>
-			<string>support.constant</string>
+			<string>support.constant, support.variable</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -289,15 +272,16 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Library variable</string>
+			<string>Decorator</string>
 			<key>scope</key>
-			<string>support.other.variable</string>
+			<string>decorator.variable, decorator.punctuation</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string></string>
+				<key>foreground</key>
+				<string>@blue4</string>
 			</dict>
 		</dict>
+
 		<dict>
 			<key>name</key>
 			<string>Invalid</string>
