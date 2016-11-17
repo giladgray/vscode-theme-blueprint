@@ -216,7 +216,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>@forest3</string>
+				<string>@forest4</string>
 			</dict>
 		</dict>
 		<dict>
@@ -532,6 +532,18 @@
 			<dict>
 				<key>foreground</key>
 				<string>@white</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>JSON Property Name</string>
+			<key>scope</key>
+			<string>json.property-name</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>@forest4</string>
 			</dict>
 		</dict>
 
