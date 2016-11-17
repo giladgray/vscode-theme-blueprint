@@ -61,7 +61,7 @@
 			<key>name</key>
 			<string>Enclosing Punctuation {()}</string>
 			<key>scope</key>
-			<string>punctuation.brace.curly, brace.curly.var, declaration.paren, parameter.round</string>
+			<string>punctuation.brace, literal.brace, brace.var, declaration.paren, parameter.round</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -104,9 +104,31 @@
 
 		<dict>
 			<key>name</key>
-			<string>Built-in constant (this, false)</string>
+			<string>Variable</string>
 			<key>scope</key>
-			<string>constant.language, variable.language</string>
+			<string>variable.property</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#bfccd6</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Variable</string>
+			<key>scope</key>
+			<string>variable, variable.declaration</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#00b3a4</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Built-in constant (this, false, Object)</string>
+			<key>scope</key>
+			<string>constant.language, variable.language, support.builtin, support.module.node</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -124,22 +146,12 @@
 				<string>#2ee6d6</string>
 			</dict>
 		</dict>
-		<dict>
-			<key>name</key>
-			<string>Variable</string>
-			<key>scope</key>
-			<string>variable</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#00b3a4</string>
-			</dict>
-		</dict>
+
 		<dict>
 			<key>name</key>
 			<string>Function name</string>
 			<key>scope</key>
-			<string>entity.name.function</string>
+			<string>function.name, function.support</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -152,7 +164,7 @@
 			<key>name</key>
 			<string>Keyword (import)</string>
 			<key>scope</key>
-			<string>keyword</string>
+			<string>keyword, support.module</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -248,7 +260,7 @@
 			<key>name</key>
 			<string>Library constant</string>
 			<key>scope</key>
-			<string>support.constant, support.variable</string>
+			<string>support.constant</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -259,9 +271,9 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Library class/type</string>
+			<string>Primitive type</string>
 			<key>scope</key>
-			<string>support.type, support.class</string>
+			<string>support.type.primitive</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -525,9 +537,9 @@
 
 		<dict>
 			<key>name</key>
-			<string>Resets</string>
+			<string>Punctuation overrides</string>
 			<key>scope</key>
-			<string>punctuation.separator, punctuation.link, tag.assignment, property-list.property-name</string>
+			<string>punctuation.separator, punctuation.link, punctuation.embedded, tag.assignment</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
