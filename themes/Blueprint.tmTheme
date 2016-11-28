@@ -106,7 +106,7 @@
 			<key>name</key>
 			<string>Variable</string>
 			<key>scope</key>
-			<string>variable.property</string>
+			<string>variable.property, variable.var.property</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
