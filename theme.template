@@ -175,7 +175,7 @@
 			<key>name</key>
 			<string>Operator</string>
 			<key>scope</key>
-			<string>operator, template-expression</string>
+			<string>operator, template-expression, regex.negation</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -544,6 +544,18 @@
 			<dict>
 				<key>foreground</key>
 				<string>@forest4</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>Regex: capture group</string>
+			<key>scope</key>
+			<string>punctuation.regex.group</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>@orange4</string>
 			</dict>
 		</dict>
 
