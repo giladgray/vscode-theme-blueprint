@@ -154,17 +154,26 @@
 			<string>function.name, function.support, function.name.expression</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string></string>
 				<key>foreground</key>
 				<string>@blue4</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Keyword (import)</string>
+			<string>Keyword</string>
 			<key>scope</key>
-			<string>keyword, support.module</string>
+			<string>keyword</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>@violet4</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Control Keywords (im/export, module, if, return)</string>
+			<key>scope</key>
+			<string>keyword.control, support.module</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -189,8 +198,6 @@
 			<string>storage</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string></string>
 				<key>foreground</key>
 				<string>@violet4</string>
 			</dict>
@@ -213,8 +220,6 @@
 			<string>entity.tag, definition.tag</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string></string>
 				<key>foreground</key>
 				<string>@forest4</string>
 			</dict>
@@ -226,8 +231,6 @@
 			<string>entity.other.attribute-name</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string></string>
 				<key>foreground</key>
 				<string>@orange4</string>
 			</dict>
@@ -250,8 +253,6 @@
 			<string>entity.other.inherited-class</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string>italic underline</string>
 				<key>foreground</key>
 				<string>@gold4</string>
 			</dict>
@@ -263,8 +264,6 @@
 			<string>support.constant</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string></string>
 				<key>foreground</key>
 				<string>@turquoise5</string>
 			</dict>
@@ -276,8 +275,6 @@
 			<string>support.type.primitive</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string>italic</string>
 				<key>foreground</key>
 				<string>@gold4</string>
 			</dict>
@@ -303,8 +300,6 @@
 			<dict>
 				<key>background</key>
 				<string>@red3</string>
-				<key>fontStyle</key>
-				<string></string>
 				<key>foreground</key>
 				<string>@light-gray5</string>
 			</dict>
@@ -331,17 +326,6 @@
 			<dict>
 				<key>foreground</key>
 				<string>@lime4</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>JSON String</string>
-			<key>scope</key>
-			<string>meta.structure.dictionary.json</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string></string>
 			</dict>
 		</dict>
 

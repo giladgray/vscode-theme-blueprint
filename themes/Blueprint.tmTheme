@@ -154,17 +154,26 @@
 			<string>function.name, function.support, function.name.expression</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string></string>
 				<key>foreground</key>
 				<string>#2b95d6</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Keyword (import)</string>
+			<string>Keyword</string>
 			<key>scope</key>
-			<string>keyword, support.module</string>
+			<string>keyword</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#a854a8</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Control Keywords (im/export, module, if, return)</string>
+			<key>scope</key>
+			<string>keyword.control, support.module</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -189,8 +198,6 @@
 			<string>storage</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string></string>
 				<key>foreground</key>
 				<string>#a854a8</string>
 			</dict>
@@ -213,8 +220,6 @@
 			<string>entity.tag, definition.tag</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string></string>
 				<key>foreground</key>
 				<string>#43bf4d</string>
 			</dict>
@@ -226,8 +231,6 @@
 			<string>entity.other.attribute-name</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string></string>
 				<key>foreground</key>
 				<string>#f29d49</string>
 			</dict>
@@ -250,8 +253,6 @@
 			<string>entity.other.inherited-class</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string>italic underline</string>
 				<key>foreground</key>
 				<string>#f2b824</string>
 			</dict>
@@ -263,8 +264,6 @@
 			<string>support.constant</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string></string>
 				<key>foreground</key>
 				<string>#2ee6d6</string>
 			</dict>
@@ -276,8 +275,6 @@
 			<string>support.type.primitive</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string>italic</string>
 				<key>foreground</key>
 				<string>#f2b824</string>
 			</dict>
@@ -303,8 +300,6 @@
 			<dict>
 				<key>background</key>
 				<string>#db3737</string>
-				<key>fontStyle</key>
-				<string></string>
 				<key>foreground</key>
 				<string>#f5f8fa</string>
 			</dict>
@@ -331,17 +326,6 @@
 			<dict>
 				<key>foreground</key>
 				<string>#b6d94c</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>JSON String</string>
-			<key>scope</key>
-			<string>meta.structure.dictionary.json</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string></string>
 			</dict>
 		</dict>
 
