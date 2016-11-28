@@ -61,7 +61,7 @@
 			<key>name</key>
 			<string>Enclosing Punctuation {()}</string>
 			<key>scope</key>
-			<string>punctuation.brace, literal.brace, brace.var, declaration.paren, parameter.round</string>
+			<string>brace.var, declaration.paren, function.brace, literal.brace, punctuation.brace, parameter.round</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -151,7 +151,7 @@
 			<key>name</key>
 			<string>Function name</string>
 			<key>scope</key>
-			<string>function.name, function.support</string>
+			<string>function.name, function.support, function.name.expression</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -175,7 +175,7 @@
 			<key>name</key>
 			<string>Operator</string>
 			<key>scope</key>
-			<string>operator</string>
+			<string>operator, template-expression</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -210,7 +210,7 @@
 			<key>name</key>
 			<string>Tag name</string>
 			<key>scope</key>
-			<string>entity.tag, definition.tag, entity.tag.name.function</string>
+			<string>entity.tag, definition.tag</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
