@@ -21,4 +21,4 @@ export default {
     TEXT: Colors.GRAY5,
     TYPE: Colors.GOLD4,
     VARIABLE: Colors.TURQUOISE3,
-}
+};

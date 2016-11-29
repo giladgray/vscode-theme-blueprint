@@ -16,28 +16,28 @@ export default {
         "punctuation.embedded",
         "punctuation.link",
         "punctuation.separator",
-        "tag.assignment"
+        "tag.assignment",
     ],
     [Aliases.COMMENT]: [
         "comment",
-        "markup.punctuation.quote"
+        "markup.punctuation.quote",
     ],
     [Aliases.STRING]: [
         "string",
         "string.quoted.double",
-        "string.quoted.single"
+        "string.quoted.single",
     ],
     [Aliases.NUMERAL]: [
         "constant.numeric",
-        "markup.list.beginning"
+        "markup.list.beginning",
     ],
     [Aliases.TEXT]: [
         "variable.property",
-        "variable.var.property"
+        "variable.var.property",
     ],
     [Aliases.VARIABLE]: [
         "variable",
-        "variable.declaration"
+        "variable.declaration",
     ],
     [Aliases.BUILTIN]: [
         "constant.language",
@@ -46,7 +46,7 @@ export default {
         "support.module.node",
         "constant.character",
         "constant.other",
-        "support.constant"
+        "support.constant",
     ],
     [Aliases.FUNCTION]: [
         "decorator.punctuation",
@@ -54,7 +54,7 @@ export default {
         "function.name",
         "function.support",
         "function.name.expression",
-        "markup.italic"
+        "markup.italic",
     ],
     [Aliases.KEYWORD]: [
         "keyword",
@@ -63,49 +63,49 @@ export default {
         "storage",
         "storage.type",
         "storage.modifier",
-        "markup.bold"
+        "markup.bold",
     ],
     [Aliases.OPERATOR]: [
         "operator",
         "template-expression",
-        "regex.negation"
+        "regex.negation",
     ],
     [Aliases.TAG]: [
         "entity.tag",
         "definition.tag",
-        "json.property-name"
+        "json.property-name",
     ],
     [Aliases.CLASS]: [
         "entity.other.attribute-name",
-        "punctuation.regex.group"
+        "punctuation.regex.group",
     ],
     [Aliases.TYPE]: [
         "entity.name.type",
         "entity.other.inherited-class",
-        "support.type.primitive"
+        "support.type.primitive",
     ],
     "#AE81FF": [
-        "invalid.deprecated"
+        "invalid.deprecated",
     ],
     "#75715E": [
         "meta.diff",
         "meta.diff.header",
         "markup.ignored.git_gutter",
-        "markup.untracked.git_gutter"
+        "markup.untracked.git_gutter",
     ],
     [Colors.RED3]: [
         "markup.deleted",
-        "markup.deleted.git_gutter"
+        "markup.deleted.git_gutter",
     ],
     [Colors.GREEN3]: [
         "markup.inserted",
-        "markup.inserted.git_gutter"
+        "markup.inserted.git_gutter",
     ],
     [Colors.ORANGE3]: [
         "markup.changed",
-        "markup.changed.git_gutter"
+        "markup.changed.git_gutter",
     ],
     [Colors.WHITE]: [
-        "markup.raw.inline"
-    ]
-}
+        "markup.raw.inline",
+    ],
+};

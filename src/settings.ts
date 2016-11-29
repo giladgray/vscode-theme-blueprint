@@ -22,4 +22,4 @@ export default {
     bracketContentsOptions: "underline",
 
     tagsOptions: "stippled_underline",
-}
+};
