@@ -17,6 +17,7 @@ export default {
         "punctuation.link",
         "punctuation.separator",
         "tag.assignment",
+        "markup.heading.name",
     ],
     [Aliases.TAG]: [
         "tag.name",
@@ -26,13 +27,13 @@ export default {
     ],
     [Aliases.COMMENT]: [
         "comment",
-        "markup.punctuation.quote",
         "comment.line",
     ],
     [Aliases.STRING]: [
         "string",
         "string.quoted.double",
         "string.quoted.single",
+        "markup.punctuation.quote",
     ],
     [Aliases.NUMERAL]: [
         "constant.numeric",
@@ -61,7 +62,7 @@ export default {
         "function.name",
         "function.support",
         "function.name.expression",
-        "markup.italic",
+        "markup.detected-link",
     ],
     [Aliases.KEYWORD]: [
         "keyword",
@@ -77,10 +78,12 @@ export default {
         "punctuation.section", // JSX {}
         "regex.negation", // /[^abc]/
         "string.template-expression", // `${}`
+        "markup.italic",
     ],
     [Aliases.CLASS]: [
         "entity.other.attribute-name",
         "punctuation.regex.group",
+        "markup.heading.punctuation",
     ],
     [Aliases.TYPE]: [
         "entity.name.type",
