@@ -18,9 +18,16 @@ export default {
         "punctuation.separator",
         "tag.assignment",
     ],
+    [Aliases.TAG]: [
+        "tag.name",
+        // "tag.definition.begin", // <, </
+        // "tag.definition.end",   // >, />
+        "json.property-name",
+    ],
     [Aliases.COMMENT]: [
         "comment",
         "markup.punctuation.quote",
+        "comment.line",
     ],
     [Aliases.STRING]: [
         "string",
@@ -67,13 +74,9 @@ export default {
     ],
     [Aliases.OPERATOR]: [
         "operator",
-        "template-expression",
-        "regex.negation",
-    ],
-    [Aliases.TAG]: [
-        "entity.tag",
-        "definition.tag",
-        "json.property-name",
+        "punctuation.section", // JSX {}
+        "regex.negation", // /[^abc]/
+        "string.template-expression", // `${}`
     ],
     [Aliases.CLASS]: [
         "entity.other.attribute-name",
