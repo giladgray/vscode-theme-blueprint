@@ -33,7 +33,7 @@ export default {
     ],
     [Aliases.STRING]: [
         "string",
-        "string.variable",
+        "string.scss", // `$var: "string"` is all .variable
         "markup.punctuation.quote",
     ],
     [Aliases.NUMERAL]: [
@@ -46,7 +46,6 @@ export default {
     ],
     [Aliases.VARIABLE]: [
         "variable",
-        "variable.declaration",
         "variable.expr",
         "variable.interpolation",
     ],
