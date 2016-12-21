@@ -1,0 +1,18 @@
+@import "stylesheet";
+
+@mixin mixin($arg) {
+  &::before {
+    content: $arg;
+  }
+}
+
+.foobar {
+  $var: "string#{$interpolated}";
+  $num: 123;
+  $str: 1px solid $red3;
+
+  @include mixin($var);
+
+  color: #112233;
+  border: $str;
+}

@@ -3,6 +3,9 @@ import Colors from "./colors";
 
 /**
  * A map of colors to array of scopes that use that color as `foreground`.
+ * For best results, use the shortest possible token.
+ * Leave notes next to tricky selectors so we know what to test for.
+ * Selectors with more than two words are dangerous as they often cause specificity conflicts with other rules.
  */
 export default {
     [Aliases.PUNCTUATION]: [
@@ -22,8 +25,6 @@ export default {
     ],
     [Aliases.TAG]: [
         "tag.name",
-        // "tag.definition.begin", // <, </
-        // "tag.definition.end",   // >, />
         "json.property-name",
         "entity.pseudo-element",
     ],
@@ -34,7 +35,7 @@ export default {
     [Aliases.STRING]: [
         "string",
         "string.scss", // `$var: "string"` is all .variable
-        "markup.punctuation.quote",
+        "markup.punctuation.quote", // markdown blockquote `>`
     ],
     [Aliases.NUMERAL]: [
         "constant.numeric",
@@ -79,7 +80,8 @@ export default {
     [Aliases.OPERATOR]: [
         "operator",
         "punctuation.definition.interpolation", // Sass #{}
-        "punctuation.expression.section", // JSX {}
+        "punctuation.expression.section", // JSX prop={} braces
+        "punctuation.typeparameters", // .map<type>(...) brackets
         "regex.negation", // /[^abc]/
         "string.template-expression", // `${}`
         "markup.italic",
