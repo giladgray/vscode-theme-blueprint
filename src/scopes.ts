@@ -1,5 +1,4 @@
 import Aliases from "./aliases";
-import Colors from "./colors";
 
 /**
  * A map of colors to array of scopes that use that color as `foreground`.
@@ -41,7 +40,7 @@ export default {
         "constant.numeric",
         "markup.list.beginning",
     ],
-        [Aliases.TEXT]: [
+    [Aliases.TEXT]: [
         "variable.property",
         "variable.var.property",
     ],
@@ -97,29 +96,5 @@ export default {
         "entity.name.type",
         "entity.other.inherited-class",
         "support.type.primitive",
-    ],
-    "#AE81FF": [
-        "invalid.deprecated",
-    ],
-    "#75715E": [
-        "meta.diff",
-        "meta.diff.header",
-        "markup.ignored.git_gutter",
-        "markup.untracked.git_gutter",
-    ],
-    [Colors.RED3]: [
-        "markup.deleted",
-        "markup.deleted.git_gutter",
-    ],
-    [Colors.GREEN3]: [
-        "markup.inserted",
-        "markup.inserted.git_gutter",
-    ],
-    [Colors.ORANGE3]: [
-        "markup.changed",
-        "markup.changed.git_gutter",
-    ],
-    [Colors.WHITE]: [
-        "markup.raw.inline",
     ],
 };
