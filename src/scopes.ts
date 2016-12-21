@@ -41,7 +41,7 @@ export default {
         "constant.numeric",
         "markup.list.beginning",
     ],
-    [Aliases.TEXT]: [
+        [Aliases.TEXT]: [
         "variable.property",
         "variable.var.property",
     ],
@@ -58,11 +58,11 @@ export default {
         "constant.character",
         "constant.other",
         "support.constant",
-        "name.reference", // Sass &
     ],
     [Aliases.FUNCTION]: [
         "decorator.punctuation",
         "decorator.variable",
+        "entity.mixin", // Sass & Less mixins
         "function.name",
         "function.support",
         "function.name.expression",
@@ -79,6 +79,8 @@ export default {
     ],
     [Aliases.OPERATOR]: [
         "operator",
+        "entity.reference", // Sass &
+        "entity.parent-selector", // Less &
         "punctuation.definition.interpolation", // Sass #{}
         "punctuation.expression.section", // JSX prop={} braces
         "punctuation.typeparameters", // .map<type>(...) brackets
