@@ -43,7 +43,7 @@
       </dict>
       <dict>
         <key>scope</key>
-        <string>brace.var, declaration.paren, function.brace, literal.brace, parameter.round, punctuation, punctuation.brace, punctuation.embedded, punctuation.link, punctuation.separator, tag.assignment</string>
+        <string>brace.var, declaration.paren, function.brace, literal.brace, parameter.round, punctuation, punctuation.brace, punctuation.embedded, punctuation.function.section, punctuation.link, punctuation.separator, tag.assignment, markup.heading.name</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
@@ -52,7 +52,16 @@
       </dict>
       <dict>
         <key>scope</key>
-        <string>comment, markup.punctuation.quote</string>
+        <string>tag.name, json.property-name, entity.pseudo-element</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#29A634</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>scope</key>
+        <string>comment, comment.line</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
@@ -61,7 +70,7 @@
       </dict>
       <dict>
         <key>scope</key>
-        <string>string, string.quoted.double, string.quoted.single</string>
+        <string>string, string.variable, markup.punctuation.quote</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
@@ -88,7 +97,7 @@
       </dict>
       <dict>
         <key>scope</key>
-        <string>variable, variable.declaration</string>
+        <string>variable, variable.declaration, variable.expr, variable.interpolation</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
@@ -97,7 +106,7 @@
       </dict>
       <dict>
         <key>scope</key>
-        <string>constant.language, variable.language, support.builtin, support.module.node, constant.character, constant.other, support.constant</string>
+        <string>constant.language, variable.language, support.builtin, support.module.node, constant.character, constant.other, support.constant, name.reference</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
@@ -106,7 +115,7 @@
       </dict>
       <dict>
         <key>scope</key>
-        <string>decorator.punctuation, decorator.variable, function.name, function.support, function.name.expression, markup.italic</string>
+        <string>decorator.punctuation, decorator.variable, function.name, function.support, function.name.expression, markup.detected-link</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
@@ -124,7 +133,7 @@
       </dict>
       <dict>
         <key>scope</key>
-        <string>operator, template-expression, regex.negation</string>
+        <string>operator, punctuation.definition.interpolation, punctuation.expression.section, regex.negation, string.template-expression, markup.italic</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
@@ -133,16 +142,7 @@
       </dict>
       <dict>
         <key>scope</key>
-        <string>entity.tag, definition.tag, json.property-name</string>
-        <key>settings</key>
-        <dict>
-          <key>foreground</key>
-          <string>#29A634</string>
-        </dict>
-      </dict>
-      <dict>
-        <key>scope</key>
-        <string>entity.other.attribute-name, punctuation.regex.group</string>
+        <string>entity, punctuation.regex.group, markup.heading.punctuation</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
