@@ -20,10 +20,11 @@
     ]
   },
   "devDependencies": {
-    "@types/node": "0.0.0",
-    "plist": "2.0.1",
-    "ts-node": "1.7.0",
-    "typescript": "2.0.10"
+    "@types/node": "^6.0.52",
+    "plist": "^2.0.1",
+    "ts-node": "^1.7.2",
+    "tslint": "^4.1.1",
+    "typescript": "^2.1.4"
   },
   "scripts": {
     "build": "ts-node src/index.ts"

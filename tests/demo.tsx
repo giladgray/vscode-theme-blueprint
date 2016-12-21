@@ -51,10 +51,10 @@ const renderPropRow = (prop: IPropertyEntry) => {
     }
 
     const formattedType = prop.type.replace("__React", "React").replace(/\b(JSX\.)?Element\b/, "JSX.Element");
-
+    `foo${x}`;
     return (
         <tr key={name}>
-            <td className={classes}><code>{name}</code></td>
+            <td className={classes}><code href={`foobar${x}`}>{name}</code></td>
             <td>
                 <span className="docs-prop-type pt-monospace-text">{formattedType}</span>
                 <span className="docs-prop-default pt-monospace-text">{prop.default}</span>

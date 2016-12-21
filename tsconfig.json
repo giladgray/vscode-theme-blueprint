@@ -1,7 +1,13 @@
 {
     "compilerOptions": {
         "module": "commonjs",
+        "noFallthroughCasesInSwitch": true,
+        "noImplicitAny": true,
+        "noImplicitReturns": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
         "outDir": "dist",
+        "strictNullChecks": true,
         "target": "es6"
     }
 }
