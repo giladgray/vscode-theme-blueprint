@@ -14,6 +14,7 @@ export default {
         "punctuation",
         "punctuation.brace",
         "punctuation.embedded",
+        "punctuation.function.section",
         "punctuation.link",
         "punctuation.separator",
         "tag.assignment",
@@ -24,6 +25,7 @@ export default {
         // "tag.definition.begin", // <, </
         // "tag.definition.end",   // >, />
         "json.property-name",
+        "entity.pseudo-element",
     ],
     [Aliases.COMMENT]: [
         "comment",
@@ -31,8 +33,7 @@ export default {
     ],
     [Aliases.STRING]: [
         "string",
-        "string.quoted.double",
-        "string.quoted.single",
+        "string.variable",
         "markup.punctuation.quote",
     ],
     [Aliases.NUMERAL]: [
@@ -46,6 +47,8 @@ export default {
     [Aliases.VARIABLE]: [
         "variable",
         "variable.declaration",
+        "variable.expr",
+        "variable.interpolation",
     ],
     [Aliases.BUILTIN]: [
         "constant.language",
@@ -55,6 +58,7 @@ export default {
         "constant.character",
         "constant.other",
         "support.constant",
+        "name.reference", // Sass &
     ],
     [Aliases.FUNCTION]: [
         "decorator.punctuation",
@@ -75,13 +79,14 @@ export default {
     ],
     [Aliases.OPERATOR]: [
         "operator",
-        "punctuation.section", // JSX {}
+        "punctuation.definition.interpolation", // Sass #{}
+        "punctuation.expression.section", // JSX {}
         "regex.negation", // /[^abc]/
         "string.template-expression", // `${}`
         "markup.italic",
     ],
     [Aliases.CLASS]: [
-        "entity.other.attribute-name",
+        "entity",
         "punctuation.regex.group",
         "markup.heading.punctuation",
     ],
