@@ -27,6 +27,8 @@
     "typescript": "^2.1.4"
   },
   "scripts": {
-    "build": "ts-node src/index.ts"
+    "build": "ts-node src/index.ts",
+    "monaco": "ts-node src/monaco/index.ts",
+    "vscode": "ts-node src/vscode/index.ts"
   }
 }

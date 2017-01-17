@@ -1,7 +1,7 @@
 import { writeFileSync } from "fs";
 import { build } from "plist";
 
-import SCOPES from "./scopes";
+import SCOPES from "../common/scopes";
 import settings from "./settings";
 
 interface IRule {
@@ -27,6 +27,10 @@ const document = {
     ],
     uuid: "D8D5E82E-3D5B-46B5-B38E-8C841C21347D",
 };
+
+// this is a test for object properties: var name is turq, props are gray.
+const { foreground } = document.settings[0].settings;
+foreground.big();
 
 writeFileSync("themes/Blueprint.tmTheme", build(document));
 console.log("DONE");

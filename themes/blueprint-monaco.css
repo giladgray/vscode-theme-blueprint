@@ -1,0 +1,58 @@
+.monaco-editor.blueprint {
+  color: #BFCCD6;
+}
+
+.monaco-editor.blueprint .monaco-editor-background {
+  background: #202B33;
+}
+
+.monaco-editor.blueprint .token.brackets,
+.monaco-editor.blueprint .token.delimiter {
+  color: #F5F8FA;
+}
+
+.monaco-editor.blueprint .token.tag {
+  color: #29A634;
+}
+
+.monaco-editor.blueprint .token.comment {
+  color: #738694;
+}
+
+.monaco-editor.blueprint .token.string,
+.monaco-editor.blueprint .token.attribute.value {
+  color: #B6D94C;
+}
+
+.monaco-editor.blueprint .token.number {
+  color: #F5498B;
+}
+
+ {
+  color: #2EE6D6;
+}
+
+.monaco-editor.blueprint .token.identifier {
+  color: #00B3A4;
+}
+
+.monaco-editor.blueprint .token.function {
+  color: #2B95D6;
+}
+
+.monaco-editor.blueprint .token.keyword {
+  color: #A854A8;
+}
+
+.monaco-editor.blueprint .token.operator {
+  color: #C274C2;
+}
+
+.monaco-editor.blueprint .token.entity,
+.monaco-editor.blueprint .token.attribute.name {
+  color: #F29D49;
+}
+
+.monaco-editor.blueprint .token.type {
+  color: #F2B824;
+}
