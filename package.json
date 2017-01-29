@@ -1,9 +1,9 @@
 {
-  "name": "theme-palantir-blueprint",
+  "name": "theme-blueprint",
   "displayName": "Blueprint",
   "description": "Palantir Blueprint syntax theme for VS Code",
   "version": "0.2.0",
-  "publisher": "Palantir",
+  "publisher": "giladgray",
   "engines": {
     "vscode": "^1.0.0"
   },
@@ -19,6 +19,10 @@
       }
     ]
   },
+  "galleryBanner": {
+    "color": "#E1E8ED"
+  },
+  "icon": "blueprint-logo.png",
   "devDependencies": {
     "@types/node": "^6.0.52",
     "plist": "^2.0.1",
@@ -26,7 +30,9 @@
     "tslint": "^4.1.1",
     "typescript": "^2.1.4"
   },
+  "license": "Apache-2.0",
   "scripts": {
-    "build": "ts-node src/index.ts"
+    "build": "ts-node src/index.ts",
+    "vscode:prepublish": "npm run build"
   }
 }
