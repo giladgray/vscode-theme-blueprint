@@ -52,15 +52,6 @@
       </dict>
       <dict>
         <key>scope</key>
-        <string>tag.name, json.property-name, entity.pseudo-element</string>
-        <key>settings</key>
-        <dict>
-          <key>foreground</key>
-          <string>#29A634</string>
-        </dict>
-      </dict>
-      <dict>
-        <key>scope</key>
         <string>comment, comment.line</string>
         <key>settings</key>
         <dict>
@@ -70,7 +61,7 @@
       </dict>
       <dict>
         <key>scope</key>
-        <string>string, string.variable, markup.punctuation.quote</string>
+        <string>string, string.scss, markup.punctuation.quote</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
@@ -97,7 +88,16 @@
       </dict>
       <dict>
         <key>scope</key>
-        <string>variable, variable.declaration, variable.expr, variable.interpolation</string>
+        <string>decorator.punctuation, decorator.variable, entity.mixin, function.name, function.support, function.name.expression, markup.detected-link</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#2B95D6</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>scope</key>
+        <string>variable, variable.expr, variable.interpolation</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
@@ -106,7 +106,7 @@
       </dict>
       <dict>
         <key>scope</key>
-        <string>constant.language, variable.language, support.builtin, support.module.node, constant.character, constant.other, support.constant, name.reference</string>
+        <string>constant.language, variable.language, variable.support, support.builtin, support.module.node, constant.character, constant.other, support.constant</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
@@ -115,11 +115,11 @@
       </dict>
       <dict>
         <key>scope</key>
-        <string>decorator.punctuation, decorator.variable, function.name, function.support, function.name.expression, markup.detected-link</string>
+        <string>tag.name, json.property-name, entity.pseudo-element</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#2B95D6</string>
+          <string>#29A634</string>
         </dict>
       </dict>
       <dict>
@@ -133,7 +133,7 @@
       </dict>
       <dict>
         <key>scope</key>
-        <string>operator, punctuation.definition.interpolation, punctuation.expression.section, regex.negation, string.template-expression, markup.italic</string>
+        <string>operator, entity.reference, entity.parent-selector, punctuation.definition.interpolation, punctuation.expression.section, punctuation.typeparameters, regex.negation, string.template-expression, markup.italic</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
@@ -156,60 +156,6 @@
         <dict>
           <key>foreground</key>
           <string>#F2B824</string>
-        </dict>
-      </dict>
-      <dict>
-        <key>scope</key>
-        <string>invalid.deprecated</string>
-        <key>settings</key>
-        <dict>
-          <key>foreground</key>
-          <string>#AE81FF</string>
-        </dict>
-      </dict>
-      <dict>
-        <key>scope</key>
-        <string>meta.diff, meta.diff.header, markup.ignored.git_gutter, markup.untracked.git_gutter</string>
-        <key>settings</key>
-        <dict>
-          <key>foreground</key>
-          <string>#75715E</string>
-        </dict>
-      </dict>
-      <dict>
-        <key>scope</key>
-        <string>markup.deleted, markup.deleted.git_gutter</string>
-        <key>settings</key>
-        <dict>
-          <key>foreground</key>
-          <string>#DB3737</string>
-        </dict>
-      </dict>
-      <dict>
-        <key>scope</key>
-        <string>markup.inserted, markup.inserted.git_gutter</string>
-        <key>settings</key>
-        <dict>
-          <key>foreground</key>
-          <string>#0F9960</string>
-        </dict>
-      </dict>
-      <dict>
-        <key>scope</key>
-        <string>markup.changed, markup.changed.git_gutter</string>
-        <key>settings</key>
-        <dict>
-          <key>foreground</key>
-          <string>#D9822B</string>
-        </dict>
-      </dict>
-      <dict>
-        <key>scope</key>
-        <string>markup.raw.inline</string>
-        <key>settings</key>
-        <dict>
-          <key>foreground</key>
-          <string>#FFFFFF</string>
         </dict>
       </dict>
     </array>
