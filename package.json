@@ -1,46 +1,46 @@
 {
-  "name": "theme-blueprint",
-  "displayName": "Blueprint",
-  "description": "Palantir Blueprint syntax theme for VS Code",
-  "version": "0.3.0",
-  "publisher": "giladgray",
-  "engines": {
-    "vscode": "^1.0.0"
-  },
-  "categories": [
-    "Themes"
-  ],
-  "contributes": {
-    "themes": [
-      {
-        "label": "Blueprint",
-        "uiTheme": "vs-dark",
-        "path": "./themes/Blueprint.tmTheme"
-      }
-    ]
-  },
-  "galleryBanner": {
-    "color": "#E1E8ED"
-  },
-  "icon": "blueprint-logo.png",
-  "devDependencies": {
-    "@types/node": "^6.0.52",
-    "plist": "^2.0.1",
-    "ts-node": "^1.7.2",
-    "tslint": "^4.1.1",
-    "typescript": "^2.1.4"
-  },
-  "license": "Apache-2.0",
-  "scripts": {
-    "build": "ts-node src/index.ts",
-    "vscode:prepublish": "npm run build"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/giladgray/vscode-theme-blueprint.git"
-  },
-  "bugs": {
-    "url": "https://github.com/giladgray/vscode-theme-blueprint/issues"
-  },
-  "homepage": "https://github.com/giladgray/vscode-theme-blueprint#readme"
+    "name": "theme-blueprint",
+    "displayName": "Blueprint",
+    "description": "Palantir Blueprint syntax theme for VS Code",
+    "version": "0.3.1",
+    "publisher": "giladgray",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Blueprint",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Blueprint.tmTheme"
+            }
+        ]
+    },
+    "galleryBanner": {
+        "color": "#E1E8ED"
+    },
+    "icon": "blueprint-logo.png",
+    "devDependencies": {
+        "@types/node": "^6.0.52",
+        "plist": "^2.0.1",
+        "ts-node": "^1.7.2",
+        "tslint": "^4.1.1",
+        "typescript": "^2.1.4"
+    },
+    "license": "Apache-2.0",
+    "scripts": {
+        "build": "ts-node src/index.ts",
+        "vscode:prepublish": "npm run build"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/giladgray/vscode-theme-blueprint.git"
+    },
+    "bugs": {
+        "url": "https://github.com/giladgray/vscode-theme-blueprint/issues"
+    },
+    "homepage": "https://github.com/giladgray/vscode-theme-blueprint#readme"
 }
