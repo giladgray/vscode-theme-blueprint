@@ -34,5 +34,13 @@
   "scripts": {
     "build": "ts-node src/index.ts",
     "vscode:prepublish": "npm run build"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/giladgray/vscode-theme-blueprint.git"
+  },
+  "bugs": {
+    "url": "https://github.com/giladgray/vscode-theme-blueprint/issues"
+  },
+  "homepage": "https://github.com/giladgray/vscode-theme-blueprint#readme"
 }
