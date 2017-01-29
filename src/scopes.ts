@@ -22,11 +22,6 @@ export default {
         "tag.assignment",
         "markup.heading.name",
     ],
-    [Aliases.TAG]: [
-        "tag.name",
-        "json.property-name",
-        "entity.pseudo-element",
-    ],
     [Aliases.COMMENT]: [
         "comment",
         "comment.line",
@@ -44,20 +39,6 @@ export default {
         "variable.property",
         "variable.var.property",
     ],
-    [Aliases.VARIABLE]: [
-        "variable",
-        "variable.expr",
-        "variable.interpolation",
-    ],
-    [Aliases.BUILTIN]: [
-        "constant.language",
-        "variable.language",
-        "support.builtin",
-        "support.module.node",
-        "constant.character",
-        "constant.other",
-        "support.constant",
-    ],
     [Aliases.FUNCTION]: [
         "decorator.punctuation",
         "decorator.variable",
@@ -66,6 +47,26 @@ export default {
         "function.support",
         "function.name.expression",
         "markup.detected-link",
+    ],
+    [Aliases.VARIABLE]: [
+        "variable",
+        "variable.expr",
+        "variable.interpolation",
+    ],
+    [Aliases.BUILTIN]: [
+        "constant.language",
+        "variable.language",
+        "variable.support",
+        "support.builtin",
+        "support.module.node",
+        "constant.character",
+        "constant.other",
+        "support.constant",
+    ],
+    [Aliases.TAG]: [
+        "tag.name",
+        "json.property-name",
+        "entity.pseudo-element",
     ],
     [Aliases.KEYWORD]: [
         "keyword",
