@@ -25,7 +25,6 @@ const document = {
         { settings },
         ...scopeRules,
     ],
-    uuid: "D8D5E82E-3D5B-46B5-B38E-8C841C21347D",
 };
 
 writeFileSync("themes/Blueprint.tmTheme", build(document));
