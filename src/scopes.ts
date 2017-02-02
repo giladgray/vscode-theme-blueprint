@@ -27,7 +27,7 @@ export default {
     ],
     [Aliases.NUMERAL]: [
         "constant.numeric",
-        "markup.list.beginning",
+        "beginning.punctuation.definition.list", // markdown lists
     ],
     [Aliases.TEXT]: [
         "variable.other.property",
@@ -40,12 +40,11 @@ export default {
         "support.function",
         "entity.other.attribute-name.class.mixin", // Sass & Less mixins
         "meta.decorator",
-        "markup.detected-link",
+        "meta.link.inline",
     ],
     [Aliases.VARIABLE]: [
         "variable",
-        "variable.expr",
-        "variable.interpolation",
+        "markup.inline.raw",
     ],
     [Aliases.BUILTIN]: [
         "constant.language",
@@ -53,6 +52,7 @@ export default {
         "variable.other.constant",
         "support.class",
         "support.module",
+        "support.type",
         "support.variable",
         "constant.character",
         "constant.other",
@@ -66,23 +66,23 @@ export default {
     [Aliases.KEYWORD]: [
         "keyword",
         "keyword.control",
-        "punctuation.definition.keyword",
-        "support.type",
         "storage",
         "storage.type",
         "storage.modifier",
         "markup.bold",
+        "punctuation.definition.bold",
+        "punctuation.definition.keyword",
     ],
     [Aliases.OPERATOR]: [
         "keyword.operator",
         "entity.name.tag.reference", // Sass &
         "entity.other.attribute-name.parent-selector", // Less &
+        "markup.italic",
+        "punctuation.definition.italic",
         "punctuation.definition.interpolation", // Sass #{}
         "punctuation.definition.template-expression",
         "punctuation.definition.typeparameters", // .map<type>(...) brackets
         "punctuation.section.embedded", // JSX prop={} braces
-        "regex.negation", // /[^abc]/
-        "markup.italic",
     ],
     [Aliases.CLASS]: [
         "entity",
