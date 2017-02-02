@@ -2,7 +2,7 @@ import Colors from "./colors";
 
 /** Semantic color aliases */
 export default {
-    BACKGROUND: Colors.DARK_GRAY2,
+    BACKGROUND: Colors.DARK_GRAY1,
     BUILTIN: Colors.TURQUOISE5,
     CLASS: Colors.ORANGE4,
     COMMENT: Colors.GRAY2,
