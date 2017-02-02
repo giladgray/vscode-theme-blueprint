@@ -1,3 +1,7 @@
+## 0.4.0
+- requires VSCode `^1.9.0` for new syntax highlighting algorithm
+- darker background color
+
 ## 0.3.1
 - quick republish to fix screenshot
 

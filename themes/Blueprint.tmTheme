@@ -10,7 +10,7 @@
         <key>settings</key>
         <dict>
           <key>background</key>
-          <string>#202B33</string>
+          <string>#182026</string>
           <key>caret</key>
           <string>#F5F8FA</string>
           <key>foreground</key>
@@ -43,7 +43,7 @@
       </dict>
       <dict>
         <key>scope</key>
-        <string>brace.var, declaration.paren, function.brace, literal.brace, parameter.round, punctuation, punctuation.brace, punctuation.embedded, punctuation.function.section, punctuation.link, punctuation.separator, tag.assignment, markup.heading.name</string>
+        <string>punctuation.definition, punctuation.section, meta.brace, tag.assignment, markup.heading.name</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
@@ -52,7 +52,7 @@
       </dict>
       <dict>
         <key>scope</key>
-        <string>comment, comment.line</string>
+        <string>comment, comment.line, punctuation.definition.comment</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
@@ -61,7 +61,7 @@
       </dict>
       <dict>
         <key>scope</key>
-        <string>string, string.scss, markup.punctuation.quote</string>
+        <string>string, string.scss, punctuation.definition.string, markup.punctuation.quote</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
@@ -70,7 +70,7 @@
       </dict>
       <dict>
         <key>scope</key>
-        <string>constant.numeric, markup.list.beginning</string>
+        <string>constant.numeric, beginning.punctuation.definition.list</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
@@ -79,7 +79,7 @@
       </dict>
       <dict>
         <key>scope</key>
-        <string>variable.property, variable.var.property</string>
+        <string>variable.other.property, variable.other.object.property, support.variable.property, support.type.property-name</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
@@ -88,7 +88,7 @@
       </dict>
       <dict>
         <key>scope</key>
-        <string>decorator.punctuation, decorator.variable, entity.mixin, function.name, function.support, function.name.expression, markup.detected-link</string>
+        <string>entity.name.function, support.function, entity.other.attribute-name.class.mixin, meta.decorator, meta.link.inline</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
@@ -97,7 +97,7 @@
       </dict>
       <dict>
         <key>scope</key>
-        <string>variable, variable.expr, variable.interpolation</string>
+        <string>variable, markup.inline.raw</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
@@ -106,7 +106,7 @@
       </dict>
       <dict>
         <key>scope</key>
-        <string>constant.language, variable.language, variable.support, support.builtin, support.module.node, constant.character, constant.other, support.constant</string>
+        <string>constant.language, variable.language, variable.other.constant, support.class, support.module, support.type, support.variable, constant.character, constant.other, support.constant</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
@@ -115,7 +115,7 @@
       </dict>
       <dict>
         <key>scope</key>
-        <string>tag.name, json.property-name, entity.pseudo-element</string>
+        <string>entity.name.tag, support.type.property-name.json, entity.other.attribute-name.pseudo-element</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
@@ -124,7 +124,7 @@
       </dict>
       <dict>
         <key>scope</key>
-        <string>keyword, keyword.control, support.module, storage, storage.type, storage.modifier, markup.bold</string>
+        <string>keyword, keyword.control, storage, storage.type, storage.modifier, markup.bold, punctuation.definition.bold, punctuation.definition.keyword</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
@@ -133,7 +133,7 @@
       </dict>
       <dict>
         <key>scope</key>
-        <string>operator, entity.reference, entity.parent-selector, punctuation.definition.interpolation, punctuation.expression.section, punctuation.typeparameters, regex.negation, string.template-expression, markup.italic</string>
+        <string>keyword.operator, entity.name.tag.reference, entity.other.attribute-name.parent-selector, markup.italic, punctuation.definition.italic, punctuation.definition.interpolation, punctuation.definition.template-expression, punctuation.definition.typeparameters, punctuation.section.embedded</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
@@ -159,7 +159,5 @@
         </dict>
       </dict>
     </array>
-    <key>uuid</key>
-    <string>D8D5E82E-3D5B-46B5-B38E-8C841C21347D</string>
   </dict>
 </plist>
