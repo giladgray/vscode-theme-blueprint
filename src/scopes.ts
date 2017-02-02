@@ -8,27 +8,21 @@ import Aliases from "./aliases";
  */
 export default {
     [Aliases.PUNCTUATION]: [
-        "brace.var",
-        "declaration.paren",
-        "function.brace",
-        "literal.brace",
-        "parameter.round",
-        "punctuation",
-        "punctuation.brace",
-        "punctuation.embedded",
-        "punctuation.function.section",
-        "punctuation.link",
-        "punctuation.separator",
+        "punctuation.definition",
+        "punctuation.section",
+        "meta.brace",
         "tag.assignment",
         "markup.heading.name",
     ],
     [Aliases.COMMENT]: [
         "comment",
         "comment.line",
+        "punctuation.definition.comment",
     ],
     [Aliases.STRING]: [
         "string",
         "string.scss", // `$var: "string"` is all .variable
+        "punctuation.definition.string",
         "markup.punctuation.quote", // markdown blockquote `>`
     ],
     [Aliases.NUMERAL]: [
@@ -36,16 +30,16 @@ export default {
         "markup.list.beginning",
     ],
     [Aliases.TEXT]: [
-        "variable.property",
-        "variable.var.property",
+        "variable.other.property",
+        "variable.other.object.property",
+        "support.variable.property", // this.refHandlers.[target] is not a builtin reference
+        "support.type.property-name", // CSS properties
     ],
     [Aliases.FUNCTION]: [
-        "decorator.punctuation",
-        "decorator.variable",
-        "entity.mixin", // Sass & Less mixins
-        "function.name",
-        "function.support",
-        "function.name.expression",
+        "entity.name.function",
+        "support.function",
+        "entity.other.attribute-name.class.mixin", // Sass & Less mixins
+        "meta.decorator",
         "markup.detected-link",
     ],
     [Aliases.VARIABLE]: [
@@ -56,40 +50,43 @@ export default {
     [Aliases.BUILTIN]: [
         "constant.language",
         "variable.language",
-        "variable.support",
-        "support.builtin",
-        "support.module.node",
+        "variable.other.constant",
+        "support.class",
+        "support.module",
+        "support.variable",
         "constant.character",
         "constant.other",
         "support.constant",
     ],
     [Aliases.TAG]: [
-        "tag.name",
-        "json.property-name",
-        "entity.pseudo-element",
+        "entity.name.tag",
+        "support.type.property-name.json",
+        "entity.other.attribute-name.pseudo-element",
     ],
     [Aliases.KEYWORD]: [
         "keyword",
         "keyword.control",
-        "support.module",
+        "punctuation.definition.keyword",
+        "support.type",
         "storage",
         "storage.type",
         "storage.modifier",
         "markup.bold",
     ],
     [Aliases.OPERATOR]: [
-        "operator",
-        "entity.reference", // Sass &
-        "entity.parent-selector", // Less &
+        "keyword.operator",
+        "entity.name.tag.reference", // Sass &
+        "entity.other.attribute-name.parent-selector", // Less &
         "punctuation.definition.interpolation", // Sass #{}
-        "punctuation.expression.section", // JSX prop={} braces
-        "punctuation.typeparameters", // .map<type>(...) brackets
+        "punctuation.definition.template-expression",
+        "punctuation.definition.typeparameters", // .map<type>(...) brackets
+        "punctuation.section.embedded", // JSX prop={} braces
         "regex.negation", // /[^abc]/
-        "string.template-expression", // `${}`
         "markup.italic",
     ],
     [Aliases.CLASS]: [
         "entity",
+        // "punctuation.definition.entity", // CSS [.]class
         "punctuation.regex.group",
         "markup.heading.punctuation",
     ],

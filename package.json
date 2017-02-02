@@ -5,7 +5,7 @@
     "version": "0.3.1",
     "publisher": "giladgray",
     "engines": {
-        "vscode": "^1.0.0"
+        "vscode": "^1.9.0"
     },
     "categories": [
         "Themes"
