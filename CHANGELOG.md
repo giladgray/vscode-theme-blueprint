@@ -1,8 +1,15 @@
+### 0.4.1
+- fix syntax highlighting for object deconstruct & rename syntax
+  ```js
+  // old is now gray like a key, not teal like a variable
+  const { old: newName } = obj;
+  ```
+
 ## 0.4.0
 - requires VSCode `^1.9.0` for new syntax highlighting algorithm
 - darker background color
 
-## 0.3.1
+### 0.3.1
 - quick republish to fix screenshot
 
 ## 0.3.0
