@@ -79,7 +79,7 @@
       </dict>
       <dict>
         <key>scope</key>
-        <string>variable.other.property, variable.other.object.property, support.variable.property, support.type.property-name</string>
+        <string>variable.object.property, variable.other.property, variable.other.object.property, support.variable.property, support.type.property-name</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>

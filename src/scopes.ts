@@ -30,6 +30,7 @@ export default {
         "beginning.punctuation.definition.list", // markdown lists
     ],
     [Aliases.TEXT]: [
+        "variable.object.property",
         "variable.other.property",
         "variable.other.object.property",
         "support.variable.property", // this.refHandlers.[target] is not a builtin reference
