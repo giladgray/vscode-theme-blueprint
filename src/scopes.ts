@@ -42,6 +42,7 @@ export default {
         "support.function",
         "entity.other.attribute-name.class.mixin", // Sass & Less mixins
         "meta.decorator",
+        "meta.decorator variable",
         "meta.link.inline",
     ],
     [Aliases.VARIABLE]: [
@@ -63,6 +64,7 @@ export default {
     ],
     [Aliases.TAG]: [
         "entity.name.tag",
+        "entity.name.tag support.class.component", // <Popover>
         "support.type.property-name.json",
         "entity.other.attribute-name.pseudo-element",
     ],
@@ -71,6 +73,7 @@ export default {
         "keyword.control",
         "storage",
         "storage.type",
+        "storage.type punctuation",
         "storage.modifier",
         "markup.bold",
         "punctuation.definition.bold",
@@ -97,5 +100,6 @@ export default {
         "entity.name.type",
         "entity.other.inherited-class",
         "support.type.primitive",
+        "entity.other.attribute-name.pseudo-class",
     ],
 };
