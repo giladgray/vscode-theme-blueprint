@@ -32,6 +32,7 @@ export default {
     [Aliases.TEXT]: [
         "variable.object.property",
         "variable.other.property",
+        "variable.other.constant.property",
         "variable.other.object.property",
         "support.variable.property", // this.refHandlers.[target] is not a builtin reference
         "support.type.property-name", // CSS properties
@@ -47,10 +48,8 @@ export default {
         "variable",
         "markup.inline.raw",
     ],
-    [Aliases.BUILTIN]: [
-        "constant.language",
+    [Aliases.LANGUAGE]: [
         "variable.language",
-        "variable.other.constant",
         "support.class",
         "support.module",
         "support.type",
@@ -58,6 +57,9 @@ export default {
         "constant.character",
         "constant.other",
         "support.constant",
+    ],
+    [Aliases.CONSTANT]: [
+        "constant.language",
     ],
     [Aliases.TAG]: [
         "entity.name.tag",
