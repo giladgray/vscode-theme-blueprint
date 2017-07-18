@@ -48,6 +48,7 @@ export const foregrounds: Record<string, string[]> = {
     [Aliases.VARIABLE]: [
         "variable",
         "markup.inline.raw",
+        "punctuation.definition.variable.less", // Less [@]var
     ],
     [Aliases.LANGUAGE]: [
         "variable.language",
@@ -82,7 +83,7 @@ export const foregrounds: Record<string, string[]> = {
     [Aliases.OPERATOR]: [
         "keyword.operator",
         "entity.name.tag.reference", // Sass &
-        "entity.other.attribute-name.parent-selector", // Less &
+        "entity.other.attribute-name.parent-selector punctuation.definition", // Less &
         "markup.italic",
         "punctuation.definition.italic",
         "punctuation.definition.interpolation", // Sass #{}
