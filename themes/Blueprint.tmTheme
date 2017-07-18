@@ -79,7 +79,7 @@
       </dict>
       <dict>
         <key>scope</key>
-        <string>variable.object.property, variable.other.property, variable.other.object.property, support.variable.property, support.type.property-name</string>
+        <string>variable.object.property, variable.other.property, variable.other.constant.property, variable.other.object.property, support.variable.property, support.type.property-name</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
@@ -88,7 +88,7 @@
       </dict>
       <dict>
         <key>scope</key>
-        <string>entity.name.function, support.function, entity.other.attribute-name.class.mixin, meta.decorator, meta.link.inline</string>
+        <string>entity.name.function, support.function, entity.other.attribute-name.class.mixin, meta.decorator, meta.decorator variable, meta.link.inline</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
@@ -97,7 +97,7 @@
       </dict>
       <dict>
         <key>scope</key>
-        <string>variable, markup.inline.raw</string>
+        <string>variable, markup.inline.raw, punctuation.definition.variable.less</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
@@ -106,7 +106,7 @@
       </dict>
       <dict>
         <key>scope</key>
-        <string>constant.language, variable.language, variable.other.constant, support.class, support.module, support.type, support.variable, constant.character, constant.other, support.constant</string>
+        <string>variable.language, support.class, support.module, support.type, support.variable, constant.character, constant.other, support.constant</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
@@ -115,7 +115,16 @@
       </dict>
       <dict>
         <key>scope</key>
-        <string>entity.name.tag, support.type.property-name.json, entity.other.attribute-name.pseudo-element</string>
+        <string>constant.language</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#AD99FF</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>scope</key>
+        <string>entity.name.tag, entity.name.tag support.class.component, support.type.property-name.json, entity.other.attribute-name.pseudo-element</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
@@ -124,7 +133,7 @@
       </dict>
       <dict>
         <key>scope</key>
-        <string>keyword, keyword.control, storage, storage.type, storage.modifier, markup.bold, punctuation.definition.bold, punctuation.definition.keyword</string>
+        <string>keyword, keyword.control, storage, storage.type, storage.type punctuation, storage.modifier, markup.bold, punctuation.definition.bold, punctuation.definition.keyword</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
@@ -133,7 +142,7 @@
       </dict>
       <dict>
         <key>scope</key>
-        <string>keyword.operator, entity.name.tag.reference, entity.other.attribute-name.parent-selector, markup.italic, punctuation.definition.italic, punctuation.definition.interpolation, punctuation.definition.template-expression, punctuation.definition.typeparameters, punctuation.section.embedded</string>
+        <string>keyword.operator, entity.name.tag.reference, entity.other.attribute-name.parent-selector punctuation.definition, markup.italic, punctuation.definition.italic, punctuation.definition.interpolation, punctuation.definition.template-expression, punctuation.definition.typeparameters, punctuation.section.embedded</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
@@ -151,11 +160,29 @@
       </dict>
       <dict>
         <key>scope</key>
-        <string>entity.name.type, entity.other.inherited-class, support.type.primitive</string>
+        <string>entity.name.type, entity.other.inherited-class, support.type.primitive, entity.other.attribute-name.pseudo-class</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
           <string>#F2B824</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>scope</key>
+        <string>meta.type, meta.return.type, entity.name.type.interface, meta.interface entity.other.inherited-class</string>
+        <key>settings</key>
+        <dict>
+          <key>fontStyle</key>
+          <string>italic</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>scope</key>
+        <string>meta.type keyword.control, meta.type storage.type.type</string>
+        <key>settings</key>
+        <dict>
+          <key>fontStyle</key>
+          <string>normal</string>
         </dict>
       </dict>
     </array>
