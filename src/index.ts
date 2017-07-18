@@ -1,7 +1,7 @@
 import { writeFileSync } from "fs";
 import { build } from "plist";
 
-import SCOPES from "./scopes";
+import * as Scopes from "./scopes";
 import settings from "./settings";
 
 interface IRule {
@@ -10,20 +10,27 @@ interface IRule {
     settings: {
         background?: string;
         fontStyle?: string;
-        foreground: string;
+        foreground?: string;
     };
+    onChange?: (ref: HTMLElement) => any;
 }
 
-const scopeRules = Object.keys(SCOPES).map<IRule>((foreground) => ({
-    scope: SCOPES[foreground].join(", "),
+const foregrounds = Object.keys(Scopes.foregrounds).map<IRule>((foreground) => ({
+    scope: Scopes.foregrounds[foreground].join(", "),
     settings: { foreground },
+}));
+
+const fontStyles = Object.keys(Scopes.fontStyles).map<IRule>((fontStyle) => ({
+    scope: Scopes.fontStyles[fontStyle].join(", "),
+    settings: { fontStyle },
 }));
 
 const document = {
     name: "Blueprint",
     settings: [
         { settings },
-        ...scopeRules,
+        ...foregrounds,
+        ...fontStyles,
     ],
 };
 

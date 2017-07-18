@@ -6,7 +6,7 @@ import Aliases from "./aliases";
  * Leave notes next to tricky selectors so we know what to test for.
  * Selectors with more than two words are dangerous as they often cause specificity conflicts with other rules.
  */
-export default {
+export const foregrounds: Record<string, string[]> = {
     [Aliases.PUNCTUATION]: [
         "punctuation.definition",
         "punctuation.section",
@@ -101,5 +101,20 @@ export default {
         "entity.other.inherited-class",
         "support.type.primitive",
         "entity.other.attribute-name.pseudo-class",
+    ],
+};
+
+export const fontStyles: Record<string, string[]> = {
+    italic: [
+        // italicize all type signatures
+        "meta.type",
+        "meta.return.type",
+        "entity.name.type.interface", // interface [IProps]
+        "meta.interface entity.other.inherited-class", // extends [IProps]
+    ],
+    normal: [
+        // revert a few special cases in type signatures
+        "meta.type keyword.control", // [export] type
+        "meta.type storage.type.type", // export [type]
     ],
 };
