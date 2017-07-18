@@ -1,18 +1,26 @@
 @import "stylesheet";
 
-@mixin mixin($arg) {
+@mixin mixin($arg, $list) {
   &::before {
     content: $arg;
   }
 }
 
 .foobar {
-  $var: "string#{$interpolated}";
   $num: 123;
-  $str: 1px solid $red3;
+  $var: "string#{$num}";
+  $bdr: 1px solid $red3;
 
-  @include mixin($var);
+  @include mixin($var, webkit osx);
 
   color: #75715E;
-  border: $str;
+  border: $bdr;
+
+  &::before {
+    color: red;
+  }
+
+  &.pt-active:first-child:not(:hover) {
+
+  }
 }
