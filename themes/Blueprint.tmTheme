@@ -88,7 +88,7 @@
       </dict>
       <dict>
         <key>scope</key>
-        <string>entity.name.function, support.function, entity.other.attribute-name.class.mixin, meta.decorator, meta.decorator variable, meta.link.inline</string>
+        <string>entity.name.function, support.function, entity.other.attribute-name.class.mixin, meta.decorator, meta.decorator variable, meta.link.inline, meta.function-call.generic</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
@@ -106,7 +106,7 @@
       </dict>
       <dict>
         <key>scope</key>
-        <string>variable.language, support.class, support.module, support.type, support.variable, constant.character, constant.other, support.constant</string>
+        <string>variable.language, variable.legacy.builtin, support.class, support.module, support.type, support.variable, constant.character, constant.other, support.constant</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
