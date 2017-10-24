@@ -44,6 +44,7 @@ export const foregrounds: Record<string, string[]> = {
         "meta.decorator",
         "meta.decorator variable",
         "meta.link.inline",
+        "meta.function-call.generic",
     ],
     [Aliases.VARIABLE]: [
         "variable",
@@ -52,6 +53,7 @@ export const foregrounds: Record<string, string[]> = {
     ],
     [Aliases.LANGUAGE]: [
         "variable.language",
+        "variable.legacy.builtin",
         "support.class",
         "support.module",
         "support.type",
