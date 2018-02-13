@@ -1,4 +1,4 @@
-import Aliases from "./aliases";
+import * as Aliases from "./aliases";
 import * as Colors from "./colors";
 
 /** Editor-level settings for VSCode */

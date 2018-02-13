@@ -1,4 +1,4 @@
-import Aliases from "./aliases";
+import * as Aliases from "./aliases";
 
 /**
  * A map of colors to array of scopes that use that color as `foreground`.
