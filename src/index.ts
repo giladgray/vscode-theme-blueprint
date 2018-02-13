@@ -31,5 +31,5 @@ const themeJson = {
     settings: [{ settings }, ...foregrounds, ...fontStyles],
 };
 
-writeFileSync("themes/Blueprint-theme.json", JSON.stringify(themeJson, null, 2));
+writeFileSync("themes/Blueprint-color-theme.json", JSON.stringify(themeJson, null, 2));
 console.log("DONE");
