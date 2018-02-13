@@ -109,7 +109,7 @@ export const fontStyles: Record<string, string[]> = {
         "entity.name.type.interface", // interface [IProps]
         "meta.interface entity.other.inherited-class", // extends [IProps]
     ],
-    normal: [
+    "": [
         // revert a few special cases in type signatures
         "meta.type keyword.control", // [export] type
         "meta.type storage.type.type", // export [type]
