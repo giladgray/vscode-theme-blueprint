@@ -52,12 +52,13 @@ export default {
     descriptionForeground: TEXT,
     // Overall foreground color for error messages (this color is only used if not overridden by a component).
     errorForeground: ERROR,
-
     "badge.background": PRIMARY,
+
     // button
     "button.background": PRIMARY,
     "button.foreground": WHITE,
     "button.hoverBackground": PRIMARY_LIGHT,
+
     // input
     "input.background": DIVIDER_BLACK,
     "input.border": BORDER,
@@ -66,11 +67,13 @@ export default {
     "inputValidation.errorBorder": ERROR,
     "inputValidation.infoBorder": PRIMARY,
     "inputValidation.warningBorder": WARNING,
+
     // lists/trees
     "list.activeSelectionForeground": WHITE,
     "list.activeSelectionBackground": PRIMARY_DARK,
     "list.hoverBackground": BACKGROUND_LIGHT,
     "list.inactiveSelectionBackground": bg(PRIMARY_DARK),
+
     // scrollbar
     "scrollbar.shadow": BLACK,
     "scrollbarSlider.background": hexA(COMMENT, 0.2),
@@ -79,11 +82,12 @@ export default {
 
     // activity bar (far left)
     "activityBar.background": BACKGROUND_BRIGHT,
-    // "activityBar.border": BORDER,
+
     // sidebar (near left)
     "sideBar.background": BACKGROUND,
     "sideBar.border": BORDER,
     "sideBarSectionHeader.background": BACKGROUND_LIGHT,
+
     // tabs (up top)
     "editorGroupHeader.tabsBackground": BACKGROUND,
     "tab.inactiveBackground": BACKGROUND_LIGHT,
@@ -91,9 +95,20 @@ export default {
     "tab.activeBorder": PRIMARY,
     "tab.border": BORDER,
     "editorGroupHeader.tabsBorder": BORDER,
+
     // panels (bottom)
     "panel.border": BORDER,
     "panelTitle.activeBorder": PRIMARY,
+
+    // Status bar (along bottom edge)
+    "statusBar.background": PRIMARY,
+    "statusBar.foreground": WHITE,
+    "statusBar.debuggingBackground": Colors.ROSE3,
+    "statusBar.noFolderBackground": Colors.INDIGO3,
+    // Status Bar prominent items background color.
+    // Prominent items stand out from other Status Bar entries to indicate importance. Change mode Toggle Tab Key Moves Focus from command palette to see an example.
+    "statusBarItem.prominentBackground": WARNING,
+    "statusBarItem.prominentHoverBackground": Colors.ORANGE4,
 
     // editor
     "editor.background": BLACK,
@@ -163,7 +178,7 @@ export default {
     "gitDecoration.ignoredResourceForeground": Colors.GRAY3,
     "gitDecoration.conflictingResourceForeground": Colors.INDIGO4,
 
-    "debugToolBar.background": BACKGROUND_LIGHT,
+    "debugToolBar.background": bgBright(Colors.ROSE1),
 
     "welcomePage.buttonBackground": BACKGROUND,
     "welcomePage.buttonHoverBackground": BACKGROUND_LIGHT,

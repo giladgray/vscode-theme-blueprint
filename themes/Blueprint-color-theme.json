@@ -78,9 +78,15 @@
     "gitDecoration.untrackedResourceForeground": "#15B371",
     "gitDecoration.ignoredResourceForeground": "#8A9BA8",
     "gitDecoration.conflictingResourceForeground": "#9179F2",
-    "debugToolBar.background": "#202B33",
+    "debugToolBar.background": "#A8225599",
     "welcomePage.buttonBackground": "#182026",
-    "welcomePage.buttonHoverBackground": "#202B33"
+    "welcomePage.buttonHoverBackground": "#202B33",
+    "statusBar.background": "#137CBD",
+    "statusBar.foreground": "#FFFFFF",
+    "statusBar.debuggingBackground": "#DB2C6F",
+    "statusBar.noFolderBackground": "#7157D9",
+    "statusBarItem.prominentBackground": "#D9822B",
+    "statusBarItem.prominentHoverBackground": "#F29D49"
   },
   "tokenColors": [
     {
