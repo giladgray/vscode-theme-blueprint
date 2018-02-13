@@ -23,10 +23,9 @@ const ERROR = Colors.RED3;
 const WARNING = Colors.ORANGE3;
 
 // diff colors
-const ADDED = Colors.GREEN4;
-const CHANGED = Colors.ORANGE4;
-const REMOVED = Colors.RED4;
-const MERGED = Colors.INDIGO4;
+const ADDED = Colors.GREEN2;
+const CHANGED = Colors.ORANGE2;
+const REMOVED = Colors.RED2;
 
 // editor states
 const MATCH = Colors.FOREST1;
@@ -97,7 +96,7 @@ export default {
     "panelTitle.activeBorder": PRIMARY,
 
     // editor
-    "editor.background": BACKGROUND,
+    "editor.background": BLACK,
     "editor.lineHighlightBackground": BACKGROUND_LIGHT,
     "editor.selectionBackground": bgBright(PRIMARY),
     "editor.selectionHighlightBackground": bg(PRIMARY),
@@ -139,40 +138,35 @@ export default {
     // Background color for text that got removed.
     "diffEditor.removedTextBackground": bg(REMOVED),
 
-    // Background color of the editor gutter. The gutter contains the glyph margins and the line numbers.
-    "editorOverviewRuler.addedForeground": ADDED,
-    // Overview ruler marker color for deleted content.
-    "editorOverviewRuler.deletedForeground": REMOVED,
-    // Overview ruler marker color for errors.
-    "editorOverviewRuler.errorForeground": ERROR,
-    // Overview ruler marker color for warnings.
-    "editorOverviewRuler.warningForeground": CHANGED,
-    // Overview ruler marker color for infos.
-    "editorOverviewRuler.infoForeground": PRIMARY,
-
-    // Foreground color of error squigglies in the editor.
+    // Foreground color of editor squiggles
     "editorError.foreground": ERROR,
-    // Foreground color of warning squigglies in the editor.
     "editorWarning.foreground": WARNING,
-    // Foreground color of info squigglies in the editor.
     "editorInfo.foreground": PRIMARY,
 
-    // Editor gutter background color for lines that are modified.
-    "editorGutter.modifiedBackground": CHANGED,
-    // Editor gutter background color for lines that are added.
+    // Three lanes under the scrollbar
+    "editorOverviewRuler.border": BORDER,
+    "editorOverviewRuler.addedForeground": ADDED,
+    "editorOverviewRuler.deletedForeground": REMOVED,
+    "editorOverviewRuler.errorForeground": ERROR,
+    "editorOverviewRuler.warningForeground": WARNING,
+    "editorOverviewRuler.infoForeground": PRIMARY,
+
+    // Editor gutter background color (next to line numbers)
+    "editorGutter.modifiedBackground": PRIMARY,
     "editorGutter.addedBackground": ADDED,
-    // Editor gutter background color for lines that are deleted.
     "editorGutter.deletedBackground": REMOVED,
-    // Color for modified git resources. Used file labels and the SCM viewlet.
-    "gitDecoration.modifiedResourceForeground": CHANGED,
-    // Color for deleted git resources. Used file labels and the SCM viewlet.
-    "gitDecoration.deletedResourceForeground": REMOVED,
-    // Color for untracked git resources. Used file labels and the SCM viewlet.
-    "gitDecoration.untrackedResourceForeground": ADDED,
-    // Color for ignored git resources. Used file labels and the SCM viewlet.
+
+    // Color for git resources in file tree and source control.
+    "gitDecoration.modifiedResourceForeground": Colors.ORANGE4,
+    "gitDecoration.deletedResourceForeground": Colors.RED4,
+    "gitDecoration.untrackedResourceForeground": Colors.GREEN4,
     "gitDecoration.ignoredResourceForeground": Colors.GRAY3,
-    // Color for conflicting git resources. Used file labels and the SCM viewlet.
-    "gitDecoration.conflictingResourceForeground": MERGED,
+    "gitDecoration.conflictingResourceForeground": Colors.INDIGO4,
+
+    "debugToolBar.background": BACKGROUND_LIGHT,
+
+    "welcomePage.buttonBackground": BACKGROUND,
+    "welcomePage.buttonHoverBackground": BACKGROUND_LIGHT,
 };
 
 // UNSTYLED:
@@ -184,4 +178,3 @@ export default {
 // quick picker
 // extensions
 // terminal
-// welcome page
