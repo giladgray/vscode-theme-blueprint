@@ -45,5 +45,5 @@ export default {
 };
 
 function hexA(hex: string, alpha: number) {
-    return hex + alpha.toString(16);
+    return hex + Math.round(alpha * 255).toString(16);
 }
