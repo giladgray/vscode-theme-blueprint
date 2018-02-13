@@ -1,28 +1,5 @@
 import { COMMENT, PUNCTUATION, TEXT } from "./aliases";
-import {
-    BLACK,
-    BLUE1,
-    BLUE2,
-    BLUE3,
-    BLUE4,
-    DARK_GRAY1,
-    DARK_GRAY2,
-    DARK_GRAY3,
-    DARK_GRAY4,
-    DARK_GRAY5,
-    FOREST1,
-    GRAY3,
-    GREEN4,
-    INDIGO1,
-    INDIGO3,
-    INDIGO4,
-    ORANGE3,
-    ORANGE4,
-    RED3,
-    RED4,
-    TURQUOISE4,
-    WHITE,
-} from "./colors";
+import * as Colors from "./colors";
 
 /** Set alpha channel of 6-digit hex string. */
 const hexA = (hex: string, alpha: number) => hex + Math.round(alpha * 255).toString(16);
@@ -32,34 +9,50 @@ const bg = (hex: string) => hexA(hex, 0.3);
 const bgBright = (hex: string) => hexA(hex, 0.6);
 
 // background colors
-const BACKGROUND = DARK_GRAY1;
-const BACKGROUND_LIGHT = DARK_GRAY2;
-const BACKGROUND_BRIGHT = DARK_GRAY3;
+const BACKGROUND = Colors.DARK_GRAY1;
+const BACKGROUND_LIGHT = Colors.DARK_GRAY2;
+const BACKGROUND_BRIGHT = Colors.DARK_GRAY3;
 
 // primary color, used for focus and selection
-const PRIMARY_DARK = BLUE1;
-const PRIMARY = BLUE3;
-const PRIMARY_LIGHT = BLUE4;
+const PRIMARY_DARK = Colors.BLUE1;
+const PRIMARY = Colors.BLUE3;
+const PRIMARY_LIGHT = Colors.BLUE4;
+
+// other intents
+const ERROR = Colors.RED3;
+const WARNING = Colors.ORANGE3;
+
+// diff colors
+const ADDED = Colors.GREEN4;
+const CHANGED = Colors.ORANGE4;
+const REMOVED = Colors.RED4;
+const MERGED = Colors.INDIGO4;
+
+// editor states
+const MATCH = Colors.FOREST1;
+const HOVER = Colors.DARK_GRAY5;
 
 // border colors
-const BORDER = DARK_GRAY4;
-const BORDER_DARK = DARK_GRAY3;
-const DIVIDER_BLACK = bg(BLACK);
+const BORDER = Colors.DARK_GRAY4;
+const BORDER_DARK = Colors.DARK_GRAY3;
+const DIVIDER_BLACK = bg(Colors.BLACK);
+
+const { BLACK, WHITE } = Colors;
 
 export default {
     // Base Colors
     // Overall border color for focused elements. This color is only used if not overridden by a component.
-    focusBorder: BLUE2,
+    focusBorder: Colors.BLUE2,
     // Overall foreground color. This color is only used if not overridden by a component.
     foreground: TEXT,
     // Shadow color of widgets such as Find/Replace inside the editor.
     "widget.shadow": BLACK,
     // Background color of text selections in the workbench (for input fields or text areas, does not apply to selections within the editor and the terminal).
-    "selection.background": BLUE4,
+    "selection.background": PRIMARY_LIGHT,
     // Foreground color for description text providing additional information, for example for a label.
     descriptionForeground: TEXT,
     // Overall foreground color for error messages (this color is only used if not overridden by a component).
-    errorForeground: RED3,
+    errorForeground: ERROR,
 
     "badge.background": PRIMARY,
     // button
@@ -71,13 +64,13 @@ export default {
     "input.border": BORDER,
     "input.placeholderForeground": "#bfccd680",
     "inputOption.activeBorder": PRIMARY_LIGHT,
-    "inputValidation.errorBorder": RED3,
+    "inputValidation.errorBorder": ERROR,
     "inputValidation.infoBorder": PRIMARY,
-    "inputValidation.warningBorder": ORANGE3,
+    "inputValidation.warningBorder": WARNING,
     // lists/trees
     "list.activeSelectionForeground": WHITE,
-    "list.activeSelectionBackground": BLUE1,
-    "list.hoverBackground": DARK_GRAY2,
+    "list.activeSelectionBackground": PRIMARY_DARK,
+    "list.hoverBackground": BACKGROUND_LIGHT,
     "list.inactiveSelectionBackground": bg(PRIMARY_DARK),
     // scrollbar
     "scrollbar.shadow": BLACK,
@@ -111,61 +104,61 @@ export default {
     "editorIndentGuide.background": BORDER_DARK,
     "editorRuler.foreground": BORDER_DARK,
     "editorCursor.foreground": PUNCTUATION,
-    "editorLineNumber.foreground": DARK_GRAY5,
+    "editorLineNumber.foreground": Colors.DARK_GRAY5,
     "editorLink.activeForeground": PRIMARY_LIGHT,
 
     // Find matches: orange
     // Color of the current search match.
-    "editor.findMatchBackground": FOREST1,
+    "editor.findMatchBackground": MATCH,
     // Color of the other search matches. The color must not be opaque to not hide underlying decorations.
-    "editor.findMatchHighlightBackground": bg(FOREST1),
+    "editor.findMatchHighlightBackground": bg(MATCH),
     // Background color of editor widgets, such as Find/Replace.
     "editorWidget.background": BLACK,
-    "editorWidget.border": bgBright(FOREST1),
+    "editorWidget.border": bgBright(MATCH),
 
     // Suggestions: indigo
     // Background color of the suggestion widget.
     "editorSuggestWidget.background": BLACK,
     // Border color of the suggestion widget.
-    "editorSuggestWidget.border": INDIGO1,
+    "editorSuggestWidget.border": Colors.INDIGO1,
     // Color of the match highlights in the suggestion widget.
-    "editorSuggestWidget.highlightForeground": INDIGO3,
+    "editorSuggestWidget.highlightForeground": Colors.INDIGO3,
     // Background color of the selected entry in the suggestion widget.
     "editorSuggestWidget.selectedBackground": bg(PRIMARY_DARK),
 
     // Background of hovered word, and border of hover tooltip
-    "editor.hoverHighlightBackground": DARK_GRAY5,
-    "editorHoverWidget.border": DARK_GRAY5,
+    "editor.hoverHighlightBackground": HOVER,
+    "editorHoverWidget.border": HOVER,
 
     // Color for matching brackets boxes.
     "editorBracketMatch.border": PRIMARY,
 
     // Git Colors
     // Background color of the editor gutter. The gutter contains the glyph margins and the line numbers.
-    "editorOverviewRuler.addedForeground": GREEN4,
+    "editorOverviewRuler.addedForeground": ADDED,
     // Overview ruler marker color for deleted content.
-    "editorOverviewRuler.deletedForeground": RED4,
+    "editorOverviewRuler.deletedForeground": REMOVED,
     // Overview ruler marker color for errors.
-    "editorOverviewRuler.errorForeground": RED3,
+    "editorOverviewRuler.errorForeground": ERROR,
     // Overview ruler marker color for warnings.
-    "editorOverviewRuler.warningForeground": ORANGE4,
+    "editorOverviewRuler.warningForeground": CHANGED,
     // Overview ruler marker color for infos.
-    "editorOverviewRuler.infoForeground": TURQUOISE4,
+    "editorOverviewRuler.infoForeground": PRIMARY,
 
     // Editor gutter background color for lines that are modified.
-    "editorGutter.modifiedBackground": ORANGE4,
+    "editorGutter.modifiedBackground": CHANGED,
     // Editor gutter background color for lines that are added.
-    "editorGutter.addedBackground": GREEN4,
+    "editorGutter.addedBackground": ADDED,
     // Editor gutter background color for lines that are deleted.
-    "editorGutter.deletedBackground": RED4,
+    "editorGutter.deletedBackground": REMOVED,
     // Color for modified git resources. Used file labels and the SCM viewlet.
-    "gitDecoration.modifiedResourceForeground": ORANGE4,
+    "gitDecoration.modifiedResourceForeground": CHANGED,
     // Color for deleted git resources. Used file labels and the SCM viewlet.
-    "gitDecoration.deletedResourceForeground": RED4,
+    "gitDecoration.deletedResourceForeground": REMOVED,
     // Color for untracked git resources. Used file labels and the SCM viewlet.
-    "gitDecoration.untrackedResourceForeground": GREEN4,
+    "gitDecoration.untrackedResourceForeground": ADDED,
     // Color for ignored git resources. Used file labels and the SCM viewlet.
-    "gitDecoration.ignoredResourceForeground": GRAY3,
+    "gitDecoration.ignoredResourceForeground": Colors.GRAY3,
     // Color for conflicting git resources. Used file labels and the SCM viewlet.
-    "gitDecoration.conflictingResourceForeground": INDIGO4,
+    "gitDecoration.conflictingResourceForeground": MERGED,
 };
