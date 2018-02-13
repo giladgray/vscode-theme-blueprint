@@ -1,37 +1,7 @@
 {
   "name": "Blueprint",
   "type": "dark",
-  "colors": {
-    "selection.background": "#2B95D6",
-    "errorForeground": "#DB3737",
-    "badge.background": "#137CBD",
-    "button.background": "#137CBD",
-    "button.hoverBackground": "#106BA3",
-    "button.foreground": "#FFFFFF",
-    "input.background": "#10161A4d",
-    "input.border": "#10161A",
-    "input.placeholderForeground": "#bfccd680",
-    "inputOption.activeBorder": "#106BA3",
-    "inputValidation.errorBorder": "#DB3737",
-    "inputValidation.infoBorder": "#137CBD",
-    "inputValidation.warningBorder": "#D9822B",
-    "activityBar.background": "#30404D",
-    "activityBar.border": "#10161A",
-    "sideBar.background": "#182026",
-    "sideBar.border": "#10161A",
-    "sideBarSectionHeader.background": "#202B33",
-    "editorGroupHeader.tabsBackground": "#182026",
-    "tab.inactiveBackground": "#202B33",
-    "tab.activeBackground": "#293742",
-    "tab.activeBorder": "#137CBD",
-    "tab.border": "#10161A",
-    "editorGroupHeader.tabsBorder": "#10161A",
-    "list.activeSelectionForeground": "#FFFFFF",
-    "list.activeSelectionBackground": "#0E5A8A",
-    "list.hoverBackground": "#202B33",
-    "list.inactiveSelectionBackground": "#0E5A8A4d"
-  },
-  "settings": [
+  "tokenColors": [
     {
       "settings": {
         "background": "#182026",
