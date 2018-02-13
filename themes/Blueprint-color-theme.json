@@ -63,7 +63,7 @@
     "editorOverviewRuler.deletedForeground": "#F55656",
     "editorOverviewRuler.errorForeground": "#DB3737",
     "editorOverviewRuler.warningForeground": "#F29D49",
-    "editorOverviewRuler.infoForeground": "#14CCBD",
+    "editorOverviewRuler.infoForeground": "#137CBD",
     "editorGutter.modifiedBackground": "#F29D49",
     "editorGutter.addedBackground": "#15B371",
     "editorGutter.deletedBackground": "#F55656",
@@ -258,7 +258,7 @@
         "meta.type storage.type.type"
       ],
       "settings": {
-        "fontStyle": "normal"
+        "fontStyle": ""
       }
     }
   ]
