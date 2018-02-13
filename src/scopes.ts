@@ -14,11 +14,7 @@ export const foregrounds: Record<string, string[]> = {
         "tag.assignment",
         "markup.heading.name",
     ],
-    [Aliases.COMMENT]: [
-        "comment",
-        "comment.line",
-        "punctuation.definition.comment",
-    ],
+    [Aliases.COMMENT]: ["comment", "comment.line", "punctuation.definition.comment"],
     [Aliases.STRING]: [
         "string",
         "string.scss", // `$var: "string"` is all .variable
@@ -62,9 +58,7 @@ export const foregrounds: Record<string, string[]> = {
         "constant.other",
         "support.constant",
     ],
-    [Aliases.CONSTANT]: [
-        "constant.language",
-    ],
+    [Aliases.CONSTANT]: ["constant.language"],
     [Aliases.TAG]: [
         "entity.name.tag",
         "entity.name.tag support.class.component", // <Popover>

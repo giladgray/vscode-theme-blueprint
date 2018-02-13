@@ -1,5 +1,5 @@
 import Aliases from "./aliases";
-import Colors from "./colors";
+import * as Colors from "./colors";
 
 /** Editor-level settings for VSCode */
 export default {
