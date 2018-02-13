@@ -134,6 +134,11 @@ export default {
     "editorBracketMatch.border": PRIMARY,
 
     // Git Colors
+    // Background color for text that got inserted.
+    "diffEditor.insertedTextBackground": bg(ADDED),
+    // Background color for text that got removed.
+    "diffEditor.removedTextBackground": bg(REMOVED),
+
     // Background color of the editor gutter. The gutter contains the glyph margins and the line numbers.
     "editorOverviewRuler.addedForeground": ADDED,
     // Overview ruler marker color for deleted content.
@@ -144,6 +149,13 @@ export default {
     "editorOverviewRuler.warningForeground": CHANGED,
     // Overview ruler marker color for infos.
     "editorOverviewRuler.infoForeground": PRIMARY,
+
+    // Foreground color of error squigglies in the editor.
+    "editorError.foreground": ERROR,
+    // Foreground color of warning squigglies in the editor.
+    "editorWarning.foreground": WARNING,
+    // Foreground color of info squigglies in the editor.
+    "editorInfo.foreground": PRIMARY,
 
     // Editor gutter background color for lines that are modified.
     "editorGutter.modifiedBackground": CHANGED,
@@ -162,3 +174,14 @@ export default {
     // Color for conflicting git resources. Used file labels and the SCM viewlet.
     "gitDecoration.conflictingResourceForeground": MERGED,
 };
+
+// UNSTYLED:
+// peek view
+// merge ranges
+// status bar
+// title bar (macOS)
+// notifications
+// quick picker
+// extensions
+// terminal
+// welcome page
