@@ -3,6 +3,7 @@ import { build } from "plist";
 
 import * as Scopes from "./scopes";
 import settings from "./settings";
+import colors from "./uiColors";
 
 interface IRule {
     name?: string;
@@ -28,6 +29,7 @@ const fontStyles = Object.keys(Scopes.fontStyles).map<IRule>(fontStyle => ({
 const document = {
     name: "Blueprint",
     type: "dark",
+    colors,
     settings: [{ settings }, ...foregrounds, ...fontStyles],
 };
 
