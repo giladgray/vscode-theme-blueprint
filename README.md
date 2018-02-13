@@ -1,5 +1,5 @@
-# Blueprint Syntax theme
+# Blueprint Editor Theme
 
-It's a lovely dark theme carefully handcrafted with [the Blueprint colors](http://blueprintjs.com/docs/#colors).
+It's a lovely dark theme for the entire editor carefully handcrafted with [the Blueprint colors](http://blueprintjs.com/docs/#colors).
 
-![screenshot](syntax-screenshot.png)
+![screenshot](editor-screenshot.png)
