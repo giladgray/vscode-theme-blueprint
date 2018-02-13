@@ -15,7 +15,7 @@
       {
         "label": "Blueprint",
         "uiTheme": "vs-dark",
-        "path": "./themes/Blueprint.tmTheme"
+        "path": "./themes/Blueprint-theme.json"
       }
     ]
   },
