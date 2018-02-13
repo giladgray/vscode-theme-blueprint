@@ -1,7 +1,9 @@
 {
-  "extends": ["tslint:latest"],
+  "extends": ["@blueprintjs/tslint-config"],
   "rules": {
+    "file-header": false,
     "object-literal-sort-keys": false,
+    "no-default-export": false,
     "no-console": [
       false
     ]
