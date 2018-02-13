@@ -24,7 +24,7 @@ const WARNING = Colors.ORANGE3;
 
 // diff colors
 const ADDED = Colors.GREEN2;
-const CHANGED = Colors.ORANGE2;
+const CHANGED = Colors.BLUE2;
 const REMOVED = Colors.RED2;
 
 // editor states
@@ -164,10 +164,10 @@ export default {
     "editorOverviewRuler.deletedForeground": REMOVED,
     "editorOverviewRuler.errorForeground": ERROR,
     "editorOverviewRuler.warningForeground": WARNING,
-    "editorOverviewRuler.infoForeground": PRIMARY,
+    "editorOverviewRuler.infoForeground": CHANGED,
 
     // Editor gutter background color (next to line numbers)
-    "editorGutter.modifiedBackground": PRIMARY,
+    "editorGutter.modifiedBackground": CHANGED,
     "editorGutter.addedBackground": ADDED,
     "editorGutter.deletedBackground": REMOVED,
 
@@ -185,9 +185,9 @@ export default {
 };
 
 // UNSTYLED:
+// match highlight
 // peek view
 // merge ranges
-// status bar
 // title bar (macOS)
 // notifications
 // quick picker

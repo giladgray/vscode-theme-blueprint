@@ -39,6 +39,12 @@
     "editorGroupHeader.tabsBorder": "#30404D",
     "panel.border": "#30404D",
     "panelTitle.activeBorder": "#137CBD",
+    "statusBar.background": "#137CBD",
+    "statusBar.foreground": "#FFFFFF",
+    "statusBar.debuggingBackground": "#DB2C6F",
+    "statusBar.noFolderBackground": "#7157D9",
+    "statusBarItem.prominentBackground": "#D9822B",
+    "statusBarItem.prominentHoverBackground": "#F29D49",
     "editor.background": "#10161A",
     "editor.lineHighlightBackground": "#202B33",
     "editor.selectionBackground": "#137CBD99",
@@ -69,8 +75,8 @@
     "editorOverviewRuler.deletedForeground": "#C23030",
     "editorOverviewRuler.errorForeground": "#DB3737",
     "editorOverviewRuler.warningForeground": "#D9822B",
-    "editorOverviewRuler.infoForeground": "#137CBD",
-    "editorGutter.modifiedBackground": "#137CBD",
+    "editorOverviewRuler.infoForeground": "#106BA3",
+    "editorGutter.modifiedBackground": "#106BA3",
     "editorGutter.addedBackground": "#0D8050",
     "editorGutter.deletedBackground": "#C23030",
     "gitDecoration.modifiedResourceForeground": "#F29D49",
@@ -80,13 +86,7 @@
     "gitDecoration.conflictingResourceForeground": "#9179F2",
     "debugToolBar.background": "#A8225599",
     "welcomePage.buttonBackground": "#182026",
-    "welcomePage.buttonHoverBackground": "#202B33",
-    "statusBar.background": "#137CBD",
-    "statusBar.foreground": "#FFFFFF",
-    "statusBar.debuggingBackground": "#DB2C6F",
-    "statusBar.noFolderBackground": "#7157D9",
-    "statusBarItem.prominentBackground": "#D9822B",
-    "statusBarItem.prominentHoverBackground": "#F29D49"
+    "welcomePage.buttonHoverBackground": "#202B33"
   },
   "tokenColors": [
     {
