@@ -1,7 +1,7 @@
 import { writeFileSync } from "fs";
 
 import * as Scopes from "./scopes";
-import settings from "./settings";
+import uiColors from "./uiColors";
 
 interface IRule {
     name?: string;
@@ -26,7 +26,8 @@ const fontStyles = Object.keys(Scopes.fontStyles).map<IRule>(fontStyle => ({
 const themeJson = {
     name: "Blueprint",
     type: "dark",
-    tokenColors: [{ settings }, ...foregrounds, ...fontStyles],
+    colors: uiColors,
+    tokenColors: [...foregrounds, ...fontStyles],
 };
 
 writeFileSync("themes/Blueprint-color-theme.json", JSON.stringify(themeJson, null, 2));

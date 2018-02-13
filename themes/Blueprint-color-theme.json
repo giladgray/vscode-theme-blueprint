@@ -1,26 +1,39 @@
 {
   "name": "Blueprint",
   "type": "dark",
+  "colors": {
+    "background": "#182026",
+    "foreground": "#BFCCD6",
+    "selection.background": "#2B95D6",
+    "errorForeground": "#DB3737",
+    "badge.background": "#137CBD",
+    "button.background": "#137CBD",
+    "button.hoverBackground": "#106BA3",
+    "button.foreground": "#FFFFFF",
+    "input.background": "#10161A4d",
+    "input.border": "#10161A",
+    "input.placeholderForeground": "#bfccd680",
+    "inputOption.activeBorder": "#106BA3",
+    "inputValidation.errorBorder": "#DB3737",
+    "inputValidation.infoBorder": "#137CBD",
+    "inputValidation.warningBorder": "#D9822B",
+    "activityBar.background": "#30404D",
+    "activityBar.border": "#10161A",
+    "sideBar.background": "#182026",
+    "sideBar.border": "#10161A",
+    "sideBarSectionHeader.background": "#202B33",
+    "editorGroupHeader.tabsBackground": "#182026",
+    "tab.inactiveBackground": "#202B33",
+    "tab.activeBackground": "#293742",
+    "tab.activeBorder": "#137CBD",
+    "tab.border": "#10161A",
+    "editorGroupHeader.tabsBorder": "#10161A",
+    "list.activeSelectionForeground": "#FFFFFF",
+    "list.activeSelectionBackground": "#0E5A8A",
+    "list.hoverBackground": "#202B33",
+    "list.inactiveSelectionBackground": "#0E5A8A4d"
+  },
   "tokenColors": [
-    {
-      "settings": {
-        "background": "#182026",
-        "caret": "#F5F8FA",
-        "foreground": "#BFCCD6",
-        "invisibles": "#394B59",
-        "lineHighlight": "#293742",
-        "selection": "#106BA3",
-        "findHighlight": "#FFE792",
-        "findHighlightForeground": "#10161A",
-        "selectionBorder": "#222218",
-        "activeGuide": "#9D550FB0",
-        "bracketsForeground": "#48AFF0",
-        "bracketsOptions": "underline",
-        "bracketContentsForeground": "#48AFF0",
-        "bracketContentsOptions": "underline",
-        "tagsOptions": "stippled_underline"
-      }
-    },
     {
       "scope": [
         "punctuation.definition",
