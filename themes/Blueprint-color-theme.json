@@ -46,6 +46,7 @@
     "statusBarItem.prominentBackground": "#D9822B",
     "statusBarItem.prominentHoverBackground": "#F29D49",
     "editor.background": "#10161A",
+    "editor.foreground": "#BFCCD6",
     "editor.lineHighlightBackground": "#202B33",
     "editor.selectionBackground": "#137CBD99",
     "editor.selectionHighlightBackground": "#137CBD4d",

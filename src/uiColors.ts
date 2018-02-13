@@ -112,6 +112,7 @@ export default {
 
     // editor
     "editor.background": BLACK,
+    "editor.foreground": TEXT,
     "editor.lineHighlightBackground": BACKGROUND_LIGHT,
     "editor.selectionBackground": bgBright(PRIMARY),
     "editor.selectionHighlightBackground": bg(PRIMARY),
