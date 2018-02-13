@@ -15,23 +15,20 @@ interface IRule {
     onChange?: (ref: HTMLElement) => any;
 }
 
-const foregrounds = Object.keys(Scopes.foregrounds).map<IRule>((foreground) => ({
+const foregrounds = Object.keys(Scopes.foregrounds).map<IRule>(foreground => ({
     scope: Scopes.foregrounds[foreground].join(", "),
     settings: { foreground },
 }));
 
-const fontStyles = Object.keys(Scopes.fontStyles).map<IRule>((fontStyle) => ({
+const fontStyles = Object.keys(Scopes.fontStyles).map<IRule>(fontStyle => ({
     scope: Scopes.fontStyles[fontStyle].join(", "),
     settings: { fontStyle },
 }));
 
 const document = {
     name: "Blueprint",
-    settings: [
-        { settings },
-        ...foregrounds,
-        ...fontStyles,
-    ],
+    type: "dark",
+    settings: [{ settings }, ...foregrounds, ...fontStyles],
 };
 
 writeFileSync("themes/Blueprint.tmTheme", build(document));

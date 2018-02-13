@@ -1,4 +1,4 @@
-import Colors from "./colors";
+import * as Colors from "./colors";
 
 /** Semantic color aliases */
 export default {
