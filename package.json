@@ -24,11 +24,11 @@
   },
   "icon": "blueprint-logo.png",
   "devDependencies": {
-    "@blueprintjs/tslint-config": "^1.1.0",
+    "@blueprintjs/tslint-config": "^1.9.0",
     "@types/node": "^9.4.5",
-    "ts-node": "^4.1.0",
-    "tslint": "^5.9.1",
-    "typescript": "^2.7.1"
+    "ts-node": "^8.5.2",
+    "tslint": "^5.20.1",
+    "typescript": "^3.7.2"
   },
   "license": "Apache-2.0",
   "scripts": {
