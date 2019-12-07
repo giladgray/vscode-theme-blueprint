@@ -8,8 +8,7 @@ import * as Aliases from "./aliases";
  */
 export const foregrounds: Record<string, string[]> = {
     [Aliases.PUNCTUATION]: [
-        "punctuation.definition",
-        "punctuation.section",
+        "punctuation",
         "meta.brace",
         "tag.assignment",
         "markup.heading.name",
@@ -61,7 +60,7 @@ export const foregrounds: Record<string, string[]> = {
     [Aliases.CONSTANT]: ["constant.language"],
     [Aliases.TAG]: [
         "entity.name.tag",
-        "entity.name.tag support.class.component", // <Popover>
+        "entity.name.tag support.class.component", // named JSX override: <Popover>
         "support.type.property-name.json",
         "entity.other.attribute-name.pseudo-element",
     ],
