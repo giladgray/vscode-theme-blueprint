@@ -1,3 +1,6 @@
+// NOTE: This file is full of compiler errors because it is copied from another project.
+// It is intended as a complex test of coloring, so just ignore the red lines.
+
 /*
  * Copyright 2016 Palantir Technologies, Inc. All rights reserved.
  * Licensed under the BSD-3 License as modified (the “License”); you may obtain a copy
