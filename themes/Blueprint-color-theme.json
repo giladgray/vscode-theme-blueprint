@@ -92,8 +92,7 @@
   "tokenColors": [
     {
       "scope": [
-        "punctuation.definition",
-        "punctuation.section",
+        "punctuation",
         "meta.brace",
         "tag.assignment",
         "markup.heading.name"

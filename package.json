@@ -2,7 +2,7 @@
   "name": "theme-blueprint",
   "displayName": "Blueprint",
   "description": "Palantir Blueprint syntax theme for VS Code",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "publisher": "giladgray",
   "engines": {
     "vscode": "^1.19.0"
